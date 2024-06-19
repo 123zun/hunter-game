@@ -1,0 +1,8 @@
+--resource
+/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc
+--resource
+/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc
+/hunter-game/Main.qml
+/hunter-game/MenuScreen.qml
+/hunter-game/GameButton.qml
+/hunter-game/GameScreen.qml

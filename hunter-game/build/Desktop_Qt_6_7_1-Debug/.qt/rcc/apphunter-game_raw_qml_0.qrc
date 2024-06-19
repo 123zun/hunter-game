@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/hunter-game/">
+    <file alias="Main.qml">/root/hunter-game/Main.qml</file>
+    <file alias="MenuScreen.qml">/root/hunter-game/MenuScreen.qml</file>
+    <file alias="GameButton.qml">/root/hunter-game/GameButton.qml</file>
+    <file alias="GameScreen.qml">/root/hunter-game/GameScreen.qml</file>
+    <file alias="images/coin.png">/root/hunter-game/images/coin.png</file>
+    <file alias="images/yellow_button01.png">/root/hunter-game/images/yellow_button01.png</file>
+    <file alias="images/blue_button01.png">/root/hunter-game/images/blue_button01.png</file>
+    <file alias="images/cc_background.png">/root/hunter-game/images/cc_background.png</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/hunter-game">/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game</file>
+
+  </qresource>
+</RCC>

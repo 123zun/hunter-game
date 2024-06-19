@@ -1,0 +1,10 @@
+-I
+/root/hunter-game/build/Desktop_Qt_6_7_1-Debug
+-I
+/opt/Qt/6.7.1/gcc_64/./qml
+--resource
+/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc
+--resource
+/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc
+--module
+hunter-game

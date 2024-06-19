@@ -1,0 +1,8 @@
+module hunter-game
+typeinfo apphunter-game.qmltypes
+prefer :/hunter-game/
+Main 1.0 Main.qml
+MenuScreen 1.0 MenuScreen.qml
+GameButton 1.0 GameButton.qml
+GameScreen 1.0 GameScreen.qml
+
