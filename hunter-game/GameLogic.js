@@ -1,0 +1,3 @@
+function getRotation(fromPosition, toPosition) {
+
+}
