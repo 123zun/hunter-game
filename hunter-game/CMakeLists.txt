@@ -40,7 +40,8 @@ qt_add_qml_module(
   QML_FILES
   GameLogic.js
   QML_FILES
-  warpPipe.qml)
+  warpPipe.qml
+  QML_FILES Brick.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 
