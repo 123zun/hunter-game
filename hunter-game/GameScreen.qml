@@ -35,5 +35,17 @@ Item {
             text: points
         }
     }
+    MouseArea {
+        anchors { fill: parent }
+        hoverEnabled: true
+        cursorShape: Qt.BlankCursor
+
+        onMouseXChanged: (mouse) => player.updatePosition(mouse)
+
+        onMouseYChanged: (mouse) => player.updatePosition(mouse)
+    }
+    Player {
+        id: player
+    }
 
 }
