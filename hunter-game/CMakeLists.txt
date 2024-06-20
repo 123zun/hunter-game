@@ -40,7 +40,8 @@ qt_add_qml_module(
   QML_FILES
   GameLogic.js
   QML_FILES
-  warpPipe.qml)
+  WarpPipe.qml
+  QML_FILES Cloud.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

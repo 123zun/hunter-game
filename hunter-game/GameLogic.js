@@ -1,3 +1,4 @@
+var cloudComponent = Qt.createComponent("Cloud.qml")
 function checkCollision(a, b) {
     return !((a.y + a.height < b.y)
              || (a.y > b.y + b.height)
@@ -8,4 +9,8 @@ function checkCollision(a, b) {
 function getRandom(minimum, maximum){
     var now = new Date()
     return Math.floor(Math.random(now.getSeconds()) * (maximum - minimum + 1)) + minimum
+}
+
+function createCoin(x, y, size) {
+    coinComponent.createObject(board, {"x": x, "y": y, "width": size, "height": size})
 }

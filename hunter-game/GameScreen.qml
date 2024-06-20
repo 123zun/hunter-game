@@ -36,4 +36,13 @@ Item {
         }
     }
 
+    Player {
+        id: player
+
+        onXChanged: shellPipeTimer.start()
+    }
+
+    WarpPipe {
+        id: warpPipe
+    }
 }
