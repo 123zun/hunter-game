@@ -5,38 +5,55 @@ import QtQuick.Window
 import "GameLogic.js" as GameLogic
 
 Image {
-    id: player
-     // 设置玩家的初始位置
-    x: board.width / 2 - width / 2
-    y: board.height + 200
+        id: player
 
-    fillMode: Image.PreserveAspectFit
-    source: "images/flower-" + state + ".png"
-    state: "closed"
+        x: board.width / 2 - width / 2
+        y: board.height - height - 10
 
-    property bool movable: false
+        width: 100
+        height: 100
 
-    onMovableChanged: rotation = 0
+        property bool movable: false
 
-    // 更新玩家位置的函数，根据鼠标位置
-    function updatePosition(mouse) {
-        x = mouse.x - width / 2
-        y = mouse.y - height / 2
-        var fromPosition = Qt.point(x + width / 2, y + height / 2)
-        rotation = GameLogic.getRotation(fromPosition, mouse)
+        fillMode: Image.PreserveAspectFit
+        source: "images/flower-" + state + ".png"
+        state: "closed"
+
+
+        property int speed: 100
+
+        // 键盘事件处理
+        focus: true
+        Keys.onPressed: {
+            switch(event.key) {
+            case Qt.Key_Left:
+                x = Math.max(0, x - speed)
+                break
+            case Qt.Key_Right:
+                x = Math.min(board.width - width, x + speed)
+                break
+            case Qt.Key_Up:
+                y = Math.max(0, y - speed)
+                break
+            case Qt.Key_Down:
+                y = Math.min(board.height - height, y + speed)
+                break
+            // case Qt.Key_Space:
+            //     state = (state === "closed" ? "opened" : "closed")
+            //     source = "images/flower-" + state + ".png"
+            //     break
+            }
+        }
+        Behavior on x { PropertyAnimation { duration: playerSpeed } }
+        Behavior on y { PropertyAnimation { duration: playerSpeed } }
+
+        Timer {
+            repeat: true
+            running: true
+            interval: 200
+
+            onTriggered: parent.state = (parent.state === "closed" ? "opened" : "closed")
+        }
+
+
     }
-
-    Behavior on x { PropertyAnimation { duration: playerSpeed } }
-    Behavior on y { PropertyAnimation { duration: playerSpeed } }
-
-    //创建一个定时器，用于周期性地改变玩家的状态
-    Timer {
-        repeat: true
-        running: true
-        interval: 200
-
-        //// 每次定时器触发时，切换玩家的状态
-        onTriggered: parent.state = (parent.state === "closed" ? "opened" : "closed")
-    }
-}
-

@@ -5,11 +5,7 @@ Item{
     id: menuScreen
     anchors.fill: parent
 
-    Item{
-     id:font
-    }
-
-
+    // Display
     Column {
         anchors.centerIn: parent
         spacing: 10
@@ -24,9 +20,9 @@ Item{
 
         GameButton {
             id: gameButton
-            text: "Start"
+            text: "New game"
             onClicked: {
-                screenLoader.source = "GameScreen.qml"
+                screenLoader.source = "Difficulty.qml"
             }
         }
 

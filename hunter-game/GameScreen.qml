@@ -3,6 +3,7 @@ import QtQuick.Window
 import QtQuick.Layouts
 import QtQuick.Controls
 
+import "GameLogic.js" as GameLogic
 
 Item {
     id: board
@@ -11,8 +12,27 @@ Item {
     width: 1920
     height: 1080
 
+    signal clearBricks()
 
+    property int playerSpeed: 100
 
+    property int points: 0
+    property int score: 0
+
+    property int livesLost: 0
+    property int heartCount: 5
+
+    property int prevDirection: 3
+
+    property bool gameOver: livesLost >= heartCount
+
+    onLivesLostChanged: {
+        if (livesLost >= heartCount) {
+            GameLogic.gameOver()
+        }
+    }
+
+    Component.onCompleted: GameLogic.gameStart()
 
     Image {
         id: background
@@ -44,5 +64,9 @@ Item {
 
     WarpPipe {
         id: warpPipe
+    }
+    GameOverPopup {
+        id: gameOverPopup
+        visible: gameOver
     }
 }

@@ -14,3 +14,19 @@ function getRandom(minimum, maximum){
 function createCoin(x, y, size) {
     coinComponent.createObject(board, {"x": x, "y": y, "width": size, "height": size})
 }
+
+function gameStart() {
+    clearBricks()
+    createBricks()
+
+    points = 0
+    livesLost = 0
+
+    var oldSpeed = playerSpeed
+    playerSpeed = 3000
+    player.visible = true
+    player.movable = true
+    player.y = board.height - player.height - 290
+    warpPipe.y = board.height - 103 - warpPipe.height
+    playerSpeed = oldSpeed
+}

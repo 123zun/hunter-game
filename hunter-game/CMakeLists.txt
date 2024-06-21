@@ -28,6 +28,7 @@ qt_add_qml_module(
   images/flower-closed.png
   images/flower-opened.png
   images/tube.png
+  images/skull.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -41,7 +42,12 @@ qt_add_qml_module(
   GameLogic.js
   QML_FILES
   WarpPipe.qml
-  QML_FILES Cloud.qml)
+  QML_FILES
+  Cloud.qml
+  QML_FILES
+  Difficulty.qml
+  QML_FILES
+  GameOverPopup.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 
