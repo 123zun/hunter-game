@@ -10,9 +10,19 @@ Item {
 
     width: 1920
     height: 1080
+     property int points: 0
 
+    Timer {
+        id:cloudtimer
+        repeat: true
+        running: true
+        interval: GameLogic.getrandom(cloudSpeedLow, cloudSpeedHigh)
 
+        property int cloudSpeedLow: 3000
+        property int cloudSpeedHigh: 5500
 
+        onTriggered: GameLogic.createRandomCloud()
+    }
 
     Image {
         id: background
@@ -21,12 +31,12 @@ Item {
     }
 
     RowLayout {
-        visible: !gameOver
+        visible: true
         anchors { left: parent.left; top: parent.top; margins: 64 }
 
         Image {
 
-            source: "images/coin.png"
+            source: "images/bean.png"
         }
 
         Text {

@@ -26,8 +26,8 @@ Image {
         rotation = GameLogic.getRotation(fromPosition, mouse)
     }
 
-    Behavior on x { PropertyAnimation { duration: playerSpeed } }
-    Behavior on y { PropertyAnimation { duration: playerSpeed } }
+    Behavior on x { PropertyAnimation { duration: 1000 } }
+    Behavior on y { PropertyAnimation { duration: 1000 } }
 
     //创建一个定时器，用于周期性地改变玩家的状态
     Timer {
