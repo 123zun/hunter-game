@@ -27,6 +27,7 @@ qt_add_qml_module(
   images/cc_background.png
   images/flower-closed.png
   images/flower-opened.png
+  images/bean.png
   images/tube.png
   QML_FILES
   MenuScreen.qml
@@ -41,7 +42,10 @@ qt_add_qml_module(
   GameLogic.js
   QML_FILES
   warpPipe.qml
-  QML_FILES Brick.qml)
+  QML_FILES
+  Brick.qml
+  QML_FILES
+  Bean.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 
