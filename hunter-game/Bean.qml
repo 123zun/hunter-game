@@ -1,61 +1,51 @@
 //可收集的豆子，会在屏幕上移动，并且玩家可以通过碰撞来收集它
 import QtQuick
 import QtQuick.Window
-import QtMultimedia
 
 import "GameLogic.js" as GameLogic
 
 Image {
-    id: coin
+    id: bean
     opacity: 0
     fillMode: Image.PreserveAspectFit
     source: "images/bean.png"
 
-    onYChanged: checkCoinCollision()
 
-    property bool instantiated: false
+    onYChanged: GameLogic.checkbeanCollision()
 
-    property int coinSpeedLow: 2000
-    property int coinSpeedHigh: 3000
+    property bool beanstate: false
 
-    function checkCoinCollision() {
-        if (!instantiated)
-            return
-
-        if (GameLogic.checkCollision(player, this)) {
-            points++
-            coin.destroy()
-        }
-    }
+    property int beanSpeedLow: 2000
+    property int beanSpeedHigh: 3000
 
     Component.onCompleted: {
         y = board.height - height - 100
         opacity = 1
-        instantiated = true
+        beanstate = true
     }
 
     Behavior on y {
         SequentialAnimation {
             PropertyAnimation {
                 easing.type: Easing.InSine
-                duration: GameLogic.getRandom(coinSpeedLow, coinSpeedHigh)
+                duration: GameLogic.getrandom(beanSpeedLow, beanSpeedHigh)
             }
             PropertyAnimation {
                 easing.type: Easing.InSine
                 properties: "y"
-                to: board.height - coin.height
+                to: board.height - bean.height
                 duration: 500
             }
             PropertyAnimation {
                 easing.type: Easing.InSine
                 properties: "y"
-                to: (board.height - coin.height) - GameLogic.getRandom(0, coin.height / 6)
+                to: (board.height - bean.height) - GameLogic.getrandom(0, bean.height / 6)
                 duration: 500
             }
             PropertyAnimation {
                 easing.type: Easing.InSine
                 properties: "y"
-                to: board.height - coin.height
+                to: board.height - bean.height
                 duration: 500
             }
             ParallelAnimation {
@@ -65,15 +55,9 @@ Image {
                     to: board.height
                     duration: 500
                 }
-                PropertyAnimation {
-                    target: coin
-                    property: "opacity"
-                    to: 0; duration: 500
-                }
+                PropertyAnimation { target: bean; property: "opacity"; to: 0; duration: 500 }
             }
-            ScriptAction {
-                script: coin.destroy()
-            }
+            ScriptAction { script: bean.destroy() }
         }
     }
 }

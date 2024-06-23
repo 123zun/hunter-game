@@ -10,18 +10,36 @@ Item {
 
     width: 1920
     height: 1080
-     property int points: 0
+
+    signal clearBricks()
+
+    property int points: 0
+    property int score: 0
+
+    property int livesLost: 0
+    property int heartCount: 5
+
+    property bool gameOver: livesLost>= heartCount
+
+    onLivesLostChanged: {
+        GameLogic.playerdie()
+    }
+
+    Component.onCompleted: GameLogic.gameStart()
 
     Timer {
         id:cloudtimer
         repeat: true
-        running: true
-        interval: GameLogic.getrandom(cloudSpeedLow, cloudSpeedHigh)
-
-        property int cloudSpeedLow: 3000
-        property int cloudSpeedHigh: 5500
-
-        onTriggered: GameLogic.createRandomCloud()
+        running: false
+        interval:4000
+        onTriggered: GameLogic.createCloud()
+    }
+    Timer {
+        id:bricktimer
+        repeat: false
+        running: false
+        interval:400
+        onTriggered: GameLogic.createbrick()
     }
 
     Image {
@@ -31,31 +49,59 @@ Item {
     }
 
     RowLayout {
-        visible: true
+
+        visible: !gameOver
         anchors { left: parent.left; top: parent.top; margins: 64 }
 
-        Image {
+        Text {
+            font.pixelSize: 50
+            color: "white"
+            text: "Score:"
+        }
 
+        Image {
+            visible: !pausePanel.visible
+            fillMode: Image.PreserveAspectFit
             source: "images/bean.png"
         }
 
         Text {
-            font.pixelSize: 54
+            font.pixelSize: 50
             color: "white"
             text: points
         }
     }
-    MouseArea {
-        anchors { fill: parent }
-        hoverEnabled: true
-        cursorShape: Qt.BlankCursor
 
-        onMouseXChanged: (mouse) => player.updatePosition(mouse)
-
-        onMouseYChanged: (mouse) => player.updatePosition(mouse)
-    }
     Player {
-        id: player
-    }
+            id: player
+
+            property int speed: 50
+            focus: true
+
+            Keys.onPressed: {
+                if (pausePanel.visible) {
+                            return
+                        }
+                switch(event.key) {
+                case Qt.Key_Left:
+                    player.x = Math.max(0, x - speed)
+                    break
+                case Qt.Key_Right:
+                    player.x = Math.min(board.width - width, x + speed)
+                    break
+                case Qt.Key_Up:
+                    player.y = Math.max(0, y - speed)
+                    break
+                case Qt.Key_Down:
+                    player.y = Math.min(board.height - height, y + speed)
+                    break
+                }
+            }
+
+             onXChanged: {
+                 tubetimer.start()
+                 cloudtimer.start()
+             }
+        }
 
 }
