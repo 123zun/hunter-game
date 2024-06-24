@@ -21,14 +21,13 @@ qt_add_qml_module(
   Main.qml
   SOURCES
   RESOURCES
-  images/coin.png
   images/yellow_button01.png
-  images/blue_button01.png
-  images/cc_background.png
-  images/flower-closed.png
-  images/flower-opened.png
-  images/bean.png
   images/tube.png
+  images/player-closed.png
+  images/player-opened.png
+  images/blue_button01.png
+  images/bean.png
+  images/background.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -45,7 +44,10 @@ qt_add_qml_module(
   QML_FILES
   Brick.qml
   QML_FILES
-  Bean.qml)
+  Bean.qml
+  QML_FILES
+  Cloud.qml
+  QML_FILES Tube.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

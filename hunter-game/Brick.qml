@@ -10,39 +10,19 @@ Image {
 
     property bool crashed: false
 
-    function crash() {
-        crashed = true
-        opacity = 0
-    }
-
-    function checkBrickCollision() {
-        if (crashed) {
-            return
-        }
-
-        if (GameLogic.checkCollision(player, this)) {
-            crash()
-            livesLost++
-        }
-    }
-
     Connections {
         target: player
-
-        function onXChanged() { checkBrickCollision() }
-
-        function onYChanged() { checkBrickCollision() }
+        function onXChanged() { GameLogic.checkBrickCollision() }
+        function onYChanged() { GameLogic.checkBrickCollision() }
     }
 
     Connections {
         target: board
-
-        function onClearBricks() { crash() }
+        function onClearBricks() { GameLogic.crash() }
     }
-
     Behavior on opacity {
         SequentialAnimation {
-            PropertyAnimation { duration: 400 }
+            PropertyAnimation { duration: 500 }
             ScriptAction { script: brick.destroy() }
         }
     }
