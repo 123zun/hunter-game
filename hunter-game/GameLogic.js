@@ -50,10 +50,27 @@ function createBean(x, y, size) {
 
     beanComponent.createObject(board, {"x": x, "y": y, "width": size, "height": size})
 }
-
+var cloudComponent = Qt.createComponent("Cloud.qml")
 function createCloud() {
     const type = getrandom(1, 3)
     var x=0
     var y=board.height*0.045
     cloudComponent.createObject(board, {"x": x, "y": y, "width":300,"source": "images/cloud_0" + type + ".png"})
+}
+
+function gameStart() {
+    clearBricks()
+    points=0
+    livesLost = 0
+    player.visible = true
+    bricktimer.start()
+}
+function createCloud() {
+    const type = getrandom(1, 3)
+    var x=0
+    var y=board.height*0.045
+    cloudComponent.createObject(board, {"x": x, "y": y, "width":300,"source": "images/cloud_0" + type + ".png"})
+}
+function createtube(x, y, direction){
+
 }

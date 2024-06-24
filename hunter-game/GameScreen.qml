@@ -3,6 +3,7 @@ import QtQuick.Window
 import QtQuick.Layouts
 import QtQuick.Controls
 
+import "GameLogic.js" as GameLogic
 
 Item {
     id: board
@@ -20,10 +21,6 @@ Item {
     property int heartCount: 5
 
     property bool gameOver: livesLost>= heartCount
-
-    onLivesLostChanged: {
-        GameLogic.playerdie()
-    }
 
     Component.onCompleted: GameLogic.gameStart()
 
@@ -45,7 +42,7 @@ Item {
     Image {
         id: background
         anchors { fill: parent }
-        source: "images/cc_background.png"
+        source: "images/background.png"
     }
 
     RowLayout {
@@ -78,10 +75,8 @@ Item {
             property int speed: 50
             focus: true
 
+            //Player的键盘控制
             Keys.onPressed: {
-                if (pausePanel.visible) {
-                            return
-                        }
                 switch(event.key) {
                 case Qt.Key_Left:
                     player.x = Math.max(0, x - speed)
@@ -99,9 +94,7 @@ Item {
             }
 
              onXChanged: {
-                 tubetimer.start()
                  cloudtimer.start()
              }
         }
-
 }

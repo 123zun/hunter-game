@@ -28,6 +28,9 @@ qt_add_qml_module(
   images/yellow_button01.png
   images/blue_button01.png
   images/background.png
+  images/cloud_01.png
+  images/cloud_02.png
+  images/cloud_03.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -38,13 +41,16 @@ qt_add_qml_module(
   QML_FILES
   Player.qml
   QML_FILES
-
   QML_FILES
   GameLogic.js
   QML_FILES
   Brick.qml
-  QML_FILES Bean.qml
-  QML_FILES Cloud.qml)
+  QML_FILES
+  Bean.qml
+  QML_FILES
+  Cloud.qml
+  QML_FILES
+  Tube.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 
