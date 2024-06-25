@@ -31,6 +31,8 @@ qt_add_qml_module(
   images/cloud_01.png
   images/cloud_02.png
   images/cloud_03.png
+  images/brick.png
+  images/bullet.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -50,7 +52,8 @@ qt_add_qml_module(
   QML_FILES
   Cloud.qml
   QML_FILES
-  Tube.qml)
+  Tube.qml
+  QML_FILES Bullet.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

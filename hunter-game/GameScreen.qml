@@ -38,6 +38,26 @@ Item {
         interval:400
         onTriggered: GameLogic.createbrick()
     }
+    Timer {
+        id: tubetimer
+        repeat: true
+        running: false
+        interval: 2500
+
+        onTriggered: {
+            GameLogic.totube()
+        }
+    }
+    Timer {
+        id: bullettimer
+        repeat: true
+        running: false
+        interval: 1000
+
+        onTriggered: {
+            GameLogic.createbullete()
+        }
+    }
 
     Image {
         id: background
@@ -57,7 +77,6 @@ Item {
         }
 
         Image {
-            visible: !pausePanel.visible
             fillMode: Image.PreserveAspectFit
             source: "images/bean.png"
         }
@@ -95,6 +114,9 @@ Item {
 
              onXChanged: {
                  cloudtimer.start()
+                 tubetimer.start()
+                 bullettimer.start()
+
              }
         }
 }
