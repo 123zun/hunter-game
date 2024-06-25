@@ -68,6 +68,25 @@ Item {
             text: points
         }
     }
+    RowLayout {
+        z:50
+        visible: !gameOver
+        anchors { right: parent.right; top: parent.top; margins: 64 }
+        Text{
+            text:"HP:"
+            font.pixelSize: 54
+        }
+
+        Repeater {
+            model: heartCount
+
+            Image {
+                fillMode: Image.PreserveAspectFit
+                source: index >= livesLost ? "images/heart-on.png"
+                                           : "images/heart-off.png"
+            }
+        }
+    }
 
     Player {
             id: player
@@ -80,21 +99,24 @@ Item {
                 switch(event.key) {
                 case Qt.Key_Left:
                     player.x = Math.max(0, x - speed)
+                    console.log("qml.Player moved left ")
                     break
                 case Qt.Key_Right:
                     player.x = Math.min(board.width - width, x + speed)
+                     console.log("qml.Player moved right ")
                     break
                 case Qt.Key_Up:
                     player.y = Math.max(0, y - speed)
+                     console.log("qml.Player moved up ")
                     break
                 case Qt.Key_Down:
                     player.y = Math.min(board.height - height, y + speed)
+                     console.log("qml.Player moved down ")
                     break
                 }
             }
 
              onXChanged: {
-                 tubetimer.start()
                  cloudtimer.start()
              }
         }
