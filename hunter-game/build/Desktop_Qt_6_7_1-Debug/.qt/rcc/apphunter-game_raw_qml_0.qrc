@@ -21,8 +21,8 @@
     <file alias="images/cloud_02.png">/root/hunter-game/hunter-game/images/cloud_02.png</file>
     <file alias="images/cloud_03.png">/root/hunter-game/hunter-game/images/cloud_03.png</file>
     <file alias="images/bean.png">/root/hunter-game/hunter-game/images/bean.png</file>
-    <file alias="images/player-closed.png">/root/hunter-game/hunter-game/images/player-closed.png</file>
-    <file alias="images/player-opened.png">/root/hunter-game/hunter-game/images/player-opened.png</file>
+    <file alias="images/player_1.png">/root/hunter-game/hunter-game/images/player_1.png</file>
+    <file alias="images/player_2.png">/root/hunter-game/hunter-game/images/player_2.png</file>
     <file alias="images/heart-off.png">/root/hunter-game/hunter-game/images/heart-off.png</file>
     <file alias="images/heart-on.png">/root/hunter-game/hunter-game/images/heart-on.png</file>
     <file alias="images/enemyback.png">/root/hunter-game/hunter-game/images/enemyback.png</file>

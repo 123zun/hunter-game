@@ -37,8 +37,8 @@ file(REMOVE_RECURSE
   "hunter-game/images/ghost.png"
   "hunter-game/images/heart-off.png"
   "hunter-game/images/heart-on.png"
-  "hunter-game/images/player-closed.png"
-  "hunter-game/images/player-opened.png"
+  "hunter-game/images/player_1.png"
+  "hunter-game/images/player_2.png"
   "hunter-game/images/tube.png"
   "hunter-game/images/yellow_button01.png"
 )

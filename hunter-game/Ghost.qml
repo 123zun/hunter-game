@@ -54,7 +54,9 @@ Image {
         }
 
         if (GameLogic.checkCollision(player, this)) {
-            crash()
+            console.log("ghost died")
+            crashed = true
+            opacity = 0
             livesLost++
         }
     }

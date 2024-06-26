@@ -153,13 +153,13 @@ hunter-game/images/bean.png: /root/hunter-game/hunter-game/images/bean.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Copying images/bean.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bean.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/bean.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bean.png
 
-hunter-game/images/player-closed.png: /root/hunter-game/hunter-game/images/player-closed.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/player-closed.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player-closed.png"
-	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player-closed.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player-closed.png
+hunter-game/images/player_1.png: /root/hunter-game/hunter-game/images/player_1.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/player_1.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_1.png"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player_1.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_1.png
 
-hunter-game/images/player-opened.png: /root/hunter-game/hunter-game/images/player-opened.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/player-opened.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player-opened.png"
-	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player-opened.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player-opened.png
+hunter-game/images/player_2.png: /root/hunter-game/hunter-game/images/player_2.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/player_2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_2.png"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player_2.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_2.png
 
 hunter-game/images/heart-off.png: /root/hunter-game/hunter-game/images/heart-off.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Copying images/heart-off.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-off.png"
@@ -275,8 +275,8 @@ apphunter-game_tooling: hunter-game/images/enemyright.png
 apphunter-game_tooling: hunter-game/images/ghost.png
 apphunter-game_tooling: hunter-game/images/heart-off.png
 apphunter-game_tooling: hunter-game/images/heart-on.png
-apphunter-game_tooling: hunter-game/images/player-closed.png
-apphunter-game_tooling: hunter-game/images/player-opened.png
+apphunter-game_tooling: hunter-game/images/player_1.png
+apphunter-game_tooling: hunter-game/images/player_2.png
 apphunter-game_tooling: hunter-game/images/tube.png
 apphunter-game_tooling: hunter-game/images/yellow_button01.png
 apphunter-game_tooling: CMakeFiles/apphunter-game_tooling.dir/build.make

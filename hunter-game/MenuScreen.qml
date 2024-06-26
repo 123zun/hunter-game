@@ -11,7 +11,7 @@ Item{
         audioOutput: AudioOutput{}
         source: "audio/begin.mp3"
         loops: MediaPlayer.Infinite
-        Component.onCompleted: {play()}//信号处理器，当组件完成加载后会触发这个处理器，这里调用了play()方法来开始播放音频。
+        Component.onCompleted: {play()}
     }
     AnimatedImage {
             id: mainbackground
@@ -19,7 +19,7 @@ Item{
             source: "audio/main.gif"
             //loops: AnimatedImage.Infinite // 设置为无限循环
             //running: true // 开始播放动画
-        }//动画
+        }
     Column {
         anchors.centerIn: parent
         spacing: 10

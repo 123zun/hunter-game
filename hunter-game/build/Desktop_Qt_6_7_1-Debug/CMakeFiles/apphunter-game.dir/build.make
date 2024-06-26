@@ -261,8 +261,8 @@ hunter-game/apphunter-game.qmltypes: apphunter-game_qmltyperegistrations.cpp
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/cloud_02.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/cloud_03.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/bean.png
-.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/player-closed.png
-.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/player-opened.png
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/player_1.png
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/player_2.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/heart-off.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/heart-on.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/enemyback.png

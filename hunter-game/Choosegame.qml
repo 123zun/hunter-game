@@ -17,19 +17,11 @@ Item {
             id: choosebackground
             anchors.fill: parent
             source: "audio/menu.gif"
-            //loops: AnimatedImage.Infinite // 设置为无限循环
-            //running: true // 开始播放动画
+
         }
     Column {
         spacing: 10
         anchors.centerIn: parent
-
-        // Connections {
-        //     target: board
-        //     function onfirstlevel(){
-        //         gameButton2.enabled=true
-        //     }
-        // }
 
 
         Label {
@@ -43,7 +35,7 @@ Item {
             id: gameButton
             text: "第一关"
             onClicked: {
-                screenLoader.source = "Gamescreen2.qml"
+                screenLoader.source = "GameScreen.qml"
             }
         }
         GameButton {
@@ -51,7 +43,7 @@ Item {
             text: "第二关"
             enabled:true
             onClicked: {
-                screenLoader.source = "GameScreen.qml"
+                screenLoader.source = "Gamescreen2.qml"
             }
         }
         GameButton {

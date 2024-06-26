@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Window
 import QtQuick.Layouts
 import QtQuick.Controls
+import QtMultimedia
 
 import "GameLogic.js" as GameLogic
 
@@ -19,16 +20,45 @@ Window {
     property int heartCount: 5
 
     property bool gameOver2: livesLost>= heartCount
-    property bool gamewin2: points>=6
+    property bool gamewin2: points>=2
 
     signal clearghost()
     signal clearbean2()
 
     onLivesLostChanged: {
         GameLogic.playerdie2()
+        damageplayer2.play()
     }
     onPointsChanged: {
         GameLogic.playerwin2()
+        goalplayer2.play()
+    }
+
+    MediaPlayer {
+        id: goalplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/goal.mp3"
+    }
+
+    MediaPlayer {
+        id: damageplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/damage.mp3"
+    }
+    MediaPlayer {
+        id:loseplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/shibai.mp3"
+    }
+    MediaPlayer {
+        id:winplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/victory.mp3"
+    }
+    MediaPlayer {
+        id: bgmplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/bgm.mp3"
     }
 
     Component.onCompleted: GameLogic.gameStart2()
@@ -144,7 +174,7 @@ Window {
     GameOver2 {
           id: gameover2
           z:50
-          visible: gameOver2 && !gamewin2 && !pausePanel2
+          visible: gameOver2 && !gamewin2
       }
     Gamesuccess2{
         id:gamesuccess2
@@ -164,20 +194,31 @@ Window {
 
             Keys.onPressed: {
 
+                if (pausePanel2.visible) {
+                            return
+                        }
                 switch(event.key) {
-                case Qt.Key_Left:
-                    player.x = Math.max(0, x - speed)
-                    break
-                case Qt.Key_Right:
-                    player.x = Math.min(board2.width - width, x + speed)
-                    break
-                case Qt.Key_Up:
-                    player.y = Math.max(0, y - speed)
-                    break
-                case Qt.Key_Down:
-                    player.y = Math.min(board2.height - height, y + speed)
-                    break
-                 }
+                    case Qt.Key_Left:
+                        console.log("qml.Player moved left")
+                        player.x = Math.max(0, player.x - speed);
+                        player.rotation=180
+                        break;
+                    case Qt.Key_Right:
+                        console.log("qml.Player moved right")
+                        player.x = Math.min(board2.width - player.width, player.x + speed);
+                        player.rotation=0
+                        break;
+                    case Qt.Key_Up:
+                        console.log("qml.Player moved up")
+                        player.y = Math.max(0, player.y - speed);
+                        player.rotation=270
+                        break;
+                    case Qt.Key_Down:
+                        console.log("qml.Player moved down")
+                        player.y = Math.min(board2.height - player.height, player.y + speed);
+                        player.rotation=90
+                        break;
+                    }
             }
         }
 }

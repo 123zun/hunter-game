@@ -8,31 +8,10 @@ var ghostComponent = Qt.createComponent("Ghost.qml")
 var bullet2Component = Qt.createComponent("Bullet2.qml")
 var bean2Component = Qt.createComponent("Bean2.qml")
 
-
 var a=0
 var b=0
 var c=0
 var d=0
-
-// function handleKeyPress(key) {
-//     if (pausePanel.visible) {
-//         return;
-//     }
-//     switch(key) {
-//     case Qt.Key_Left:
-//         player.x = Math.max(0, player.x - 50);
-//         break;
-//     case Qt.Key_Right:
-//         player.x = Math.min(board.width - player.width, player.x + 50);
-//         break;
-//     case Qt.Key_Up:
-//         player.y = Math.max(0, player.y - 50);
-//         break;
-//     case Qt.Key_Down:
-//         player.y = Math.min(board.height - player.height, player.y + 50);
-//         break;
-//     }
-// }
 
 function checkCollision(smallObj, largeObj) {
 
@@ -92,7 +71,7 @@ function createtube(x, y) {
 
     tubeComponent.createObject(board, {"x": x, "y": y})
 
-    x+=35
+    x+=40
     enemyComponent.createObject(board, {"x": x, "y": y})
 }
 
@@ -154,6 +133,7 @@ function createbrick() {
 }
 
 function gameStart() {
+    console.log("game start")
     clearBricks()
     points=0
     livesLost = 0
@@ -163,6 +143,7 @@ function gameStart() {
 }
 
 function gameOver() {
+    console.log("game over")
     bgmplayer.stop()
     loseplayer.play()
     clearBricks()
@@ -178,6 +159,7 @@ function destroyObject(object) {
 }
 
 function pause(){
+    console.log("game pause")
     player.visible=false
     pausePanel.visible=true
     tubetimer.stop()
@@ -188,6 +170,7 @@ function pause(){
 }
 
 function continu(){
+    console.log("game continu")
     player.visible=true
     pausePanel.visible = false
     player.focus = true
@@ -198,6 +181,7 @@ function continu(){
 }
 
 function restart(){
+    console.log("game restart")
     pausePanel.visible = false
     resetPlayer()
     gameStart()
@@ -206,6 +190,7 @@ function restart(){
 }
 
 function returnmenu(){
+    console.log("return to menu")
     screenLoader.source = "MenuScreen.qml"
     pausePanel.visible = false
 }
@@ -217,6 +202,7 @@ function resetPlayer() {
 
 function playerdie(){
     if (livesLost >= heartCount) {
+        console.log("player die")
         gameOver()
     }
 }
@@ -232,6 +218,7 @@ function checkbeanCollision() {
         return
 
     if (checkCollision(player, this)) {
+        console.log("player scored")
         points++
         bean.destroy()
     }
@@ -243,7 +230,9 @@ function checkenemyCollision() {
     }
 
     if (checkCollision(player, this)) {
-        crash()
+        console.log("enemy died")
+        crashed = true
+        opacity = 0
         livesLost++
     }
 }
@@ -253,6 +242,7 @@ function checkBrickCollision() {
         return
     }
     if (checkCollision(player, this)) {
+        console.log("brick destroyed")
         crash()
         livesLost++
     }
@@ -270,6 +260,7 @@ function playerwin(){
     }
 }
 function gamewin(){
+    console.log("you win")
     clearBricks()
     tubetimer.stop()
     score = points
@@ -279,16 +270,21 @@ function gamewin(){
 }
 function playerdie2(){
     if (livesLost >= heartCount) {
+        console.log("player die")
         gameover2()
+        bgmplayer2.stop()
+        loseplayer2.play()
     }
 }
 function gameover2(){
+    console.log("game over")
     score = points
     player.x = board2.width*0.5
     player.y = board2.height
     player.visible=false
 }
 function pause2(){
+    console.log("game pause")
     player.visible=false
     pausePanel2.visible=true
     c=livesLost
@@ -296,6 +292,7 @@ function pause2(){
 }
 
 function continu2(){
+    console.log("game continu")
     player.visible=true
     pausePanel2.visible = false
     player.focus = true
@@ -303,7 +300,8 @@ function continu2(){
     points=d
 }
 function gameStart2() {
-
+    console.log("game satrt")
+    bgmplayer2.play()
     clearghost()
     clearbean2()
     points=0
@@ -314,6 +312,7 @@ function gameStart2() {
 
 }
 function restart2(){
+    console.log("game start")
     clearghost()
     clearbean2()
     pausePanel2.visible = false
@@ -361,8 +360,13 @@ function createbean2(){
 
 }
 function playerwin2(){
-    if(points===6)
+    if(points===2)
+    {
+        console.log("you win")
+        bgmplayer2.stop()
+        // winplayer2()
         gamewin2()
+    }
 }
 function gamewin2(){
     clearbean2()

@@ -29,8 +29,8 @@ qt_add_qml_module(
   images/cloud_02.png
   images/cloud_03.png
   images/bean.png
-  images/player-closed.png
-  images/player-opened.png
+  images/player_1.png
+  images/player_2.png
   images/heart-off.png
   images/heart-on.png
   images/enemyback.png

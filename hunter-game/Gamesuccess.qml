@@ -41,7 +41,7 @@ Item {
             Layout.alignment: Qt.AlignHCenter
             font.pixelSize: 50
             color: "black"
-            text: "previous"
+            text: "Next"
             TapHandler {
                 onTapped:screenLoader.source = "Gamescreen2.qml"
             }

@@ -64,6 +64,8 @@ ce8b92180154f414ca1e0bcd139e25d1 hunter-game/images/enemyright.png
 d00f46b071433224e7984f8cc3e04c01 hunter-game/images/heart-on.png
 54f2268107361648cbe1a3ed120c7773 hunter-game/images/player-closed.png
 4596d8da312a1e81856a25516aa9c025 hunter-game/images/player-opened.png
+1eaba63eac777fc2849d1034aeaf3f4d hunter-game/images/player_1.png
+36ca446463d1b7748b2d099099629b84 hunter-game/images/player_2.png
 29c88be0685d9a8789a5ca9dbf5c4aa4 hunter-game/images/tube.png
 e13b22fc4972404ad104ee805c14c793 hunter-game/images/yellow_button01.png
 90e890112cfdca5ef7c40b33522ce365 meta_types/apphunter-game_json_file_list.txt

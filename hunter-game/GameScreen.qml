@@ -224,19 +224,27 @@ Window {
                                 return
                             }
                     switch(event.key) {
-                    case Qt.Key_Left:
-                        player.x = Math.max(0, x - speed)
-                        break
-                    case Qt.Key_Right:
-                        player.x = Math.min(board.width - width, x + speed)
-                        break
-                    case Qt.Key_Up:
-                        player.y = Math.max(0, y - speed)
-                        break
-                    case Qt.Key_Down:
-                        player.y = Math.min(board.height - height, y + speed)
-                        break
-                     }
+                        case Qt.Key_Left:
+                            console.log("qml.Player moved left")
+                            player.x = Math.max(0, player.x - speed);
+                            player.rotation=180
+                            break;
+                        case Qt.Key_Right:
+                            console.log("qml.Player moved right")
+                            player.x = Math.min(board.width - player.width, player.x + speed);
+                            player.rotation=0
+                            break;
+                        case Qt.Key_Up:
+                            console.log("qml.Player moved up")
+                            player.y = Math.max(0, player.y - speed);
+                            player.rotation=270
+                            break;
+                        case Qt.Key_Down:
+                            console.log("qml.Player moved down")
+                            player.y = Math.min(board.height - player.height, player.y + speed);
+                            player.rotation=90
+                            break;
+                        }
                 }
                  onXChanged: {
                      tubetimer.start()
@@ -245,3 +253,4 @@ Window {
                  }
             }
 }
+
