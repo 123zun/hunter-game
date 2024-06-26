@@ -10,25 +10,10 @@ Image {
     fillMode: Image.PreserveAspectFit
     source: "images/tube.png"
 
-    //发射口的初始方向属性
-    property string direction: ""
     property bool crashed: false
 
     Component.onCompleted: {
-         // 根据发射口的方向设置其初始位置和旋转
-        switch (direction) {
-        case "bottom":
-            y = board.height - height
-            break
-        case "left":
-            rotation = 90
-            x = 0
-            break
-        case "right":
-            rotation = 270
-            x = board.width - height + 20
-            break
-        }
+        y = board.height - height
     }
 
     Behavior on opacity {

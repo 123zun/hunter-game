@@ -21,6 +21,14 @@ Item {
     property int heartCount: 5
 
     property bool gameOver: livesLost>= heartCount
+    property bool gamewin: points>=5
+
+    onLivesLostChanged: {
+        GameLogic.playerdie()
+    }
+    onPointsChanged: {
+        GameLogic.playerwin()
+    }
 
     Component.onCompleted: GameLogic.gameStart()
 
@@ -31,12 +39,35 @@ Item {
         interval:4000
         onTriggered: GameLogic.createCloud()
     }
+
     Timer {
         id:bricktimer
         repeat: false
         running: false
         interval:400
         onTriggered: GameLogic.createbrick()
+    }
+
+    Timer {
+        id: tubetimer
+        repeat: true
+        running: false
+        interval: 2500
+
+        onTriggered: {
+            GameLogic.totube()
+        }
+    }
+
+    Timer {
+        id: bullettimer
+        repeat: true
+        running: false
+        interval: 1000
+
+        onTriggered: {
+            GameLogic.createbullete()
+        }
     }
 
     Image {
@@ -88,6 +119,17 @@ Item {
         }
     }
 
+    GameOver {
+          id: gameover
+          z:50
+          visible: gameOver && !gamewin
+      }
+    Gamesuccess{
+        z:50
+        id:gamesuccess
+        visible:gamewin
+    }
+
     Player {
             id: player
 
@@ -118,6 +160,8 @@ Item {
 
              onXChanged: {
                  cloudtimer.start()
+                 tubetimer.start()
+                 bullettimer.start()
              }
         }
 }

@@ -34,6 +34,11 @@ qt_add_qml_module(
   images/brick.png
   images/heart-off.png
   images/heart-on.png
+  images/bullet.png
+  images/enemyback.png
+  images/enemycenter.png
+  images/enemyleft.png
+  images/enemyright.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -53,7 +58,13 @@ qt_add_qml_module(
   QML_FILES
   Cloud.qml
   QML_FILES
-  Tube.qml)
+  Tube.qml
+  QML_FILES
+  Bullet.qml
+  QML_FILES
+  Enemy.qml
+  QML_FILES GameOver.qml
+  QML_FILES Gamesuccess.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 
