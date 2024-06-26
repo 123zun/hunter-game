@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/hunter-game
+CMAKE_SOURCE_DIR = /root/hunter-game/hunter-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/hunter-game/build/Desktop_Qt_6_7_1-Debug
+CMAKE_BINARY_DIR = /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug
 
 # Utility rule file for apphunter-game_qmlimportscan.
 
@@ -74,12 +74,21 @@ CMakeFiles/apphunter-game_qmlimportscan: .qt/qml_imports/apphunter-game_build.cm
 .qt/qml_imports/apphunter-game_build.cmake: /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner
 .qt/qml_imports/apphunter-game_build.cmake: .qt/rcc/qmake_hunter-game.qrc
 .qt/qml_imports/apphunter-game_build.cmake: .qt/rcc/apphunter-game_raw_qml_0.qrc
-.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/Main.qml
-.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/MenuScreen.qml
-.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/GameButton.qml
-.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/GameScreen.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for apphunter-game"
-	cd /root/hunter-game && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/apphunter-game_build.rsp
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Main.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Player.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/GameLogic.js
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/MenuScreen.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/GameButton.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Choosegame.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/GameScreen.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Gamescreen2.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/GameOver.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/GameOver2.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Gamesuccess2.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Ghost.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Gamesuccess.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for apphunter-game"
+	cd /root/hunter-game/hunter-game && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/apphunter-game_build.rsp
 
 apphunter-game_qmlimportscan: .qt/qml_imports/apphunter-game_build.cmake
 apphunter-game_qmlimportscan: CMakeFiles/apphunter-game_qmlimportscan
@@ -95,6 +104,6 @@ CMakeFiles/apphunter-game_qmlimportscan.dir/clean:
 .PHONY : CMakeFiles/apphunter-game_qmlimportscan.dir/clean
 
 CMakeFiles/apphunter-game_qmlimportscan.dir/depend:
-	cd /root/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game /root/hunter-game /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game/hunter-game /root/hunter-game/hunter-game /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/apphunter-game_qmlimportscan.dir/depend
 

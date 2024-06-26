@@ -779,12 +779,12 @@ apphunter-game_autogen/timestamp: \
 	/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
-	/root/hunter-game/CMakeLists.txt \
-	/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/apphunter-game_conf.cmake \
-	/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qtc/package-manager/auto-setup.cmake \
-	/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
-	/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
-	/root/hunter-game/main.cpp \
+	/root/hunter-game/hunter-game/CMakeLists.txt \
+	/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/apphunter-game_conf.cmake \
+	/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qtc/package-manager/auto-setup.cmake \
+	/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
+	/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	/root/hunter-game/hunter-game/main.cpp \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \

@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/hunter-game
+CMAKE_SOURCE_DIR = /root/hunter-game/hunter-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/hunter-game/build/Desktop_Qt_6_7_1-Debug
+CMAKE_BINARY_DIR = /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug
 
 # Utility rule file for apphunter-game_autogen.
 
@@ -73,9 +73,9 @@ CMakeFiles/apphunter-game_autogen: apphunter-game_autogen/timestamp
 
 apphunter-game_autogen/timestamp: /opt/Qt/6.7.1/gcc_64/./libexec/moc
 apphunter-game_autogen/timestamp: CMakeFiles/apphunter-game_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target apphunter-game"
-	/usr/bin/cmake -E cmake_autogen /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target apphunter-game"
+	/usr/bin/cmake -E cmake_autogen /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/timestamp
 
 apphunter-game_autogen: CMakeFiles/apphunter-game_autogen
 apphunter-game_autogen: apphunter-game_autogen/timestamp
@@ -91,6 +91,6 @@ CMakeFiles/apphunter-game_autogen.dir/clean:
 .PHONY : CMakeFiles/apphunter-game_autogen.dir/clean
 
 CMakeFiles/apphunter-game_autogen.dir/depend:
-	cd /root/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game /root/hunter-game /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game/hunter-game /root/hunter-game/hunter-game /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/apphunter-game_autogen.dir/depend
 

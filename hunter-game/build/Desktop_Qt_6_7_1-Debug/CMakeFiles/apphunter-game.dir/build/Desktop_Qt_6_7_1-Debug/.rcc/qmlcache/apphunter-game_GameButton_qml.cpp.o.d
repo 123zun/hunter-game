@@ -1,5 +1,5 @@
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o: \
-  /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp \
+  /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qjsprimitivevalue.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qtqmlglobal.h \

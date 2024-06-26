@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/hunter-game">
-    <file alias="qmldir">/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir</file>
+    <file alias="qmldir">/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir</file>
   </qresource>
 </RCC>
 

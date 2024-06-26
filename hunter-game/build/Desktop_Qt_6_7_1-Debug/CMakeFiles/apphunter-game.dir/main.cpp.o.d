@@ -1,4 +1,5 @@
-CMakeFiles/apphunter-game.dir/main.cpp.o: /root/hunter-game/main.cpp \
+CMakeFiles/apphunter-game.dir/main.cpp.o: \
+  /root/hunter-game/hunter-game/main.cpp \
   /opt/Qt/6.7.1/gcc_64/include/QtGui/QGuiApplication \
   /opt/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
   /opt/Qt/6.7.1/gcc_64/include/QtGui/qtguiglobal.h \

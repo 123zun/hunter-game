@@ -1,5 +1,5 @@
 CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o: \
-  /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmltyperegistrations.cpp \
+  /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmltyperegistrations.cpp \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqml.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
   /opt/Qt/6.7.1/gcc_64/include/QtQml/qjsprimitivevalue.h \

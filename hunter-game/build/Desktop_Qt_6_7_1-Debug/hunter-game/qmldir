@@ -2,7 +2,16 @@ module hunter-game
 typeinfo apphunter-game.qmltypes
 prefer :/hunter-game/
 Main 1.0 Main.qml
+Player 1.0 Player.qml
+GameLogic 1.0 GameLogic.js
 MenuScreen 1.0 MenuScreen.qml
 GameButton 1.0 GameButton.qml
+Choosegame 1.0 Choosegame.qml
 GameScreen 1.0 GameScreen.qml
+Gamescreen2 1.0 Gamescreen2.qml
+GameOver 1.0 GameOver.qml
+GameOver2 1.0 GameOver2.qml
+Gamesuccess2 1.0 Gamesuccess2.qml
+Ghost 1.0 Ghost.qml
+Gamesuccess 1.0 Gamesuccess.qml
 

@@ -1,13 +1,47 @@
 <RCC>
   <qresource prefix="/hunter-game/">
-    <file alias="Main.qml">/root/hunter-game/Main.qml</file>
-    <file alias="MenuScreen.qml">/root/hunter-game/MenuScreen.qml</file>
-    <file alias="GameButton.qml">/root/hunter-game/GameButton.qml</file>
-    <file alias="GameScreen.qml">/root/hunter-game/GameScreen.qml</file>
-    <file alias="images/coin.png">/root/hunter-game/images/coin.png</file>
-    <file alias="images/yellow_button01.png">/root/hunter-game/images/yellow_button01.png</file>
-    <file alias="images/blue_button01.png">/root/hunter-game/images/blue_button01.png</file>
-    <file alias="images/cc_background.png">/root/hunter-game/images/cc_background.png</file>
+    <file alias="Main.qml">/root/hunter-game/hunter-game/Main.qml</file>
+    <file alias="Player.qml">/root/hunter-game/hunter-game/Player.qml</file>
+    <file alias="GameLogic.js">/root/hunter-game/hunter-game/GameLogic.js</file>
+    <file alias="MenuScreen.qml">/root/hunter-game/hunter-game/MenuScreen.qml</file>
+    <file alias="GameButton.qml">/root/hunter-game/hunter-game/GameButton.qml</file>
+    <file alias="Choosegame.qml">/root/hunter-game/hunter-game/Choosegame.qml</file>
+    <file alias="GameScreen.qml">/root/hunter-game/hunter-game/GameScreen.qml</file>
+    <file alias="Gamescreen2.qml">/root/hunter-game/hunter-game/Gamescreen2.qml</file>
+    <file alias="GameOver.qml">/root/hunter-game/hunter-game/GameOver.qml</file>
+    <file alias="GameOver2.qml">/root/hunter-game/hunter-game/GameOver2.qml</file>
+    <file alias="Gamesuccess2.qml">/root/hunter-game/hunter-game/Gamesuccess2.qml</file>
+    <file alias="Ghost.qml">/root/hunter-game/hunter-game/Ghost.qml</file>
+    <file alias="Gamesuccess.qml">/root/hunter-game/hunter-game/Gamesuccess.qml</file>
+    <file alias="images/yellow_button01.png">/root/hunter-game/hunter-game/images/yellow_button01.png</file>
+    <file alias="images/blue_button01.png">/root/hunter-game/hunter-game/images/blue_button01.png</file>
+    <file alias="images/brick.png">/root/hunter-game/hunter-game/images/brick.png</file>
+    <file alias="images/background.png">/root/hunter-game/hunter-game/images/background.png</file>
+    <file alias="images/cloud_01.png">/root/hunter-game/hunter-game/images/cloud_01.png</file>
+    <file alias="images/cloud_02.png">/root/hunter-game/hunter-game/images/cloud_02.png</file>
+    <file alias="images/cloud_03.png">/root/hunter-game/hunter-game/images/cloud_03.png</file>
+    <file alias="images/bean.png">/root/hunter-game/hunter-game/images/bean.png</file>
+    <file alias="images/player-closed.png">/root/hunter-game/hunter-game/images/player-closed.png</file>
+    <file alias="images/player-opened.png">/root/hunter-game/hunter-game/images/player-opened.png</file>
+    <file alias="images/heart-off.png">/root/hunter-game/hunter-game/images/heart-off.png</file>
+    <file alias="images/heart-on.png">/root/hunter-game/hunter-game/images/heart-on.png</file>
+    <file alias="images/enemyback.png">/root/hunter-game/hunter-game/images/enemyback.png</file>
+    <file alias="images/enemycenter.png">/root/hunter-game/hunter-game/images/enemycenter.png</file>
+    <file alias="images/enemyleft.png">/root/hunter-game/hunter-game/images/enemyleft.png</file>
+    <file alias="images/enemyright.png">/root/hunter-game/hunter-game/images/enemyright.png</file>
+    <file alias="images/tube.png">/root/hunter-game/hunter-game/images/tube.png</file>
+    <file alias="images/bullet.png">/root/hunter-game/hunter-game/images/bullet.png</file>
+    <file alias="images/ghost.png">/root/hunter-game/hunter-game/images/ghost.png</file>
+    <file alias="images/bullet2.png">/root/hunter-game/hunter-game/images/bullet2.png</file>
+    <file alias="images/background2.png">/root/hunter-game/hunter-game/images/background2.png</file>
+    <file alias="audio/begin.mp3">/root/hunter-game/hunter-game/audio/begin.mp3</file>
+    <file alias="audio/bgm.mp3">/root/hunter-game/hunter-game/audio/bgm.mp3</file>
+    <file alias="audio/goal.mp3">/root/hunter-game/hunter-game/audio/goal.mp3</file>
+    <file alias="audio/damage.mp3">/root/hunter-game/hunter-game/audio/damage.mp3</file>
+    <file alias="audio/shibai.mp3">/root/hunter-game/hunter-game/audio/shibai.mp3</file>
+    <file alias="audio/victory.mp3">/root/hunter-game/hunter-game/audio/victory.mp3</file>
+    <file alias="audio/main.gif">/root/hunter-game/hunter-game/audio/main.gif</file>
+    <file alias="audio/menu.gif">/root/hunter-game/hunter-game/audio/menu.gif</file>
   </qresource>
 </RCC>
 

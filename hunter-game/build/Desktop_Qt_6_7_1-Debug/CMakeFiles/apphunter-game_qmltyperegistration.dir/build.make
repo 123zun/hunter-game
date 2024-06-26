@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/hunter-game
+CMAKE_SOURCE_DIR = /root/hunter-game/hunter-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/hunter-game/build/Desktop_Qt_6_7_1-Debug
+CMAKE_BINARY_DIR = /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug
 
 # Utility rule file for apphunter-game_qmltyperegistration.
 
@@ -83,34 +83,34 @@ apphunter-game_qmltyperegistrations.cpp: /opt/Qt/6.7.1/gcc_64/metatypes/qt6quick
 apphunter-game_qmltyperegistrations.cpp: /opt/Qt/6.7.1/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json
 apphunter-game_qmltyperegistrations.cpp: /opt/Qt/6.7.1/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
 apphunter-game_qmltyperegistrations.cpp: /opt/Qt/6.7.1/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target apphunter-game"
-	/opt/Qt/6.7.1/gcc_64/libexec/qmltyperegistrar --generate-qmltypes=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/apphunter-game.qmltypes --import-name=hunter-game --major-version=1 --minor-version=0 @/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/qmltypes/apphunter-game_foreign_types.txt -o /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmltyperegistrations.cpp /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json
-	/usr/bin/cmake -E make_directory /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qmltypes
-	/usr/bin/cmake -E touch /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qmltypes/apphunter-game.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target apphunter-game"
+	/opt/Qt/6.7.1/gcc_64/libexec/qmltyperegistrar --generate-qmltypes=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/apphunter-game.qmltypes --import-name=hunter-game --major-version=1 --minor-version=0 @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/qmltypes/apphunter-game_foreign_types.txt -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmltyperegistrations.cpp /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qmltypes
+	/usr/bin/cmake -E touch /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qmltypes/apphunter-game.qmltypes
 
 hunter-game/apphunter-game.qmltypes: apphunter-game_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate hunter-game/apphunter-game.qmltypes
 
 meta_types/qt6apphunter-game_debug_metatypes.json: meta_types/qt6apphunter-game_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6apphunter-game_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6apphunter-game_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 meta_types/qt6apphunter-game_debug_metatypes.json.gen: /opt/Qt/6.7.1/gcc_64/./libexec/moc
 meta_types/qt6apphunter-game_debug_metatypes.json.gen: meta_types/apphunter-game_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target apphunter-game"
-	/opt/Qt/6.7.1/gcc_64/libexec/moc -o /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json.gen --collect-json @/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt
-	/usr/bin/cmake -E copy_if_different /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json.gen /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target apphunter-game"
+	/opt/Qt/6.7.1/gcc_64/libexec/moc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json.gen --collect-json @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json.gen /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apphunter-game_debug_metatypes.json
 
 meta_types/apphunter-game_json_file_list.txt: /opt/Qt/6.7.1/gcc_64/./libexec/cmake_automoc_parser
 meta_types/apphunter-game_json_file_list.txt: apphunter-game_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target apphunter-game"
-	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/ParseCache.txt --cmake-autogen-info-file /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json --output-file-path /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt --timestamp-file-path /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target apphunter-game"
+	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/ParseCache.txt --cmake-autogen-info-file /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json --output-file-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt --timestamp-file-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/include
 
 apphunter-game_autogen/timestamp: /opt/Qt/6.7.1/gcc_64/./libexec/moc
 apphunter-game_autogen/timestamp: CMakeFiles/apphunter-game_qmltyperegistration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target apphunter-game"
-	/usr/bin/cmake -E cmake_autogen /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target apphunter-game"
+	/usr/bin/cmake -E cmake_autogen /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/timestamp
 
 apphunter-game_qmltyperegistration: CMakeFiles/apphunter-game_qmltyperegistration
 apphunter-game_qmltyperegistration: apphunter-game_autogen/timestamp
@@ -131,6 +131,6 @@ CMakeFiles/apphunter-game_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/apphunter-game_qmltyperegistration.dir/clean
 
 CMakeFiles/apphunter-game_qmltyperegistration.dir/depend:
-	cd /root/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game /root/hunter-game /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game/hunter-game /root/hunter-game/hunter-game /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/apphunter-game_qmltyperegistration.dir/depend
 

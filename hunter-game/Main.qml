@@ -6,13 +6,7 @@ ApplicationWindow {
     width: 1920
     height: 1080
     color: "black"
-    title: qsTr("hunter-game")
-
-    Rectangle{
-        id: bg
-        anchors.fill: parent
-        color:"black"
-    }
+    title: qsTr("hunter game")
 
     Loader {
         id: screenLoader

@@ -787,7 +787,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake"
   "/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake"
   "/opt/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake"
-  "/root/hunter-game/CMakeLists.txt"
+  "/root/hunter-game/hunter-game/CMakeLists.txt"
   ".qt/qml_imports/apphunter-game_conf.cmake"
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"

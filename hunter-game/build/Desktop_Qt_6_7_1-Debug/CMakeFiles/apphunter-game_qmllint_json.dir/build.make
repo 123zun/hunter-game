@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/hunter-game
+CMAKE_SOURCE_DIR = /root/hunter-game/hunter-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/hunter-game/build/Desktop_Qt_6_7_1-Debug
+CMAKE_BINARY_DIR = /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug
 
 # Utility rule file for apphunter-game_qmllint_json.
 
@@ -70,12 +70,21 @@ include CMakeFiles/apphunter-game_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/apphunter-game_qmllint_json.dir/progress.make
 
 CMakeFiles/apphunter-game_qmllint_json: /opt/Qt/6.7.1/gcc_64/bin/qmllint
-CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/Main.qml
-CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/MenuScreen.qml
-CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/GameButton.qml
-CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/GameScreen.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Main.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Player.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/GameLogic.js
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/MenuScreen.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/GameButton.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Choosegame.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/GameScreen.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Gamescreen2.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/GameOver.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/GameOver2.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Gamesuccess2.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Ghost.qml
+CMakeFiles/apphunter-game_qmllint_json: /root/hunter-game/hunter-game/Gamesuccess.qml
 CMakeFiles/apphunter-game_qmllint_json: .rcc/qmllint/apphunter-game_json.rsp
-	cd /root/hunter-game && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/apphunter-game_json.rsp
+	cd /root/hunter-game/hunter-game && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/apphunter-game_json.rsp
 
 apphunter-game_qmllint_json: CMakeFiles/apphunter-game_qmllint_json
 apphunter-game_qmllint_json: CMakeFiles/apphunter-game_qmllint_json.dir/build.make
@@ -90,6 +99,6 @@ CMakeFiles/apphunter-game_qmllint_json.dir/clean:
 .PHONY : CMakeFiles/apphunter-game_qmllint_json.dir/clean
 
 CMakeFiles/apphunter-game_qmllint_json.dir/depend:
-	cd /root/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game /root/hunter-game /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hunter-game/hunter-game /root/hunter-game/hunter-game /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/apphunter-game_qmllint_json.dir/depend
 
