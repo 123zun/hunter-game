@@ -1,4 +1,3 @@
-//发射口
 import QtQuick
 import QtQuick.Window
 
@@ -12,8 +11,28 @@ Image {
 
     property bool crashed: false
 
+    onYChanged: checktubeCollision()
+
+    Connections {
+        target: player
+        function onXChanged() { checktubeCollision() }
+        function onYChanged() { checktubeCollision() }
+    }
     Component.onCompleted: {
         y = board.height - height
+    }
+
+    function checktubeCollision() {
+        if (crashed) {
+            return
+        }
+
+        if (GameLogic.checkCollision(player, this)) {
+            console.log("tube destroyed")
+            crashed = true
+            opacity = 0
+            livesLost++
+        }
     }
 
     Behavior on opacity {

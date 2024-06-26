@@ -22,8 +22,12 @@ qt_add_qml_module(
   SOURCES
   RESOURCES
   images/bean.png
-  images/player-closed.png
-  images/player-opened.png
+  images/enemyback.png
+  images/enemycenter.png
+  images/enemyleft.png
+  images/enemyright.png
+  images/player_1.png
+  images/player_2.png
   images/tube.png
   images/yellow_button01.png
   images/blue_button01.png
@@ -33,6 +37,8 @@ qt_add_qml_module(
   images/cloud_03.png
   images/brick.png
   images/bullet.png
+  images/heart-on.png
+  images/heart-off.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -53,7 +59,14 @@ qt_add_qml_module(
   Cloud.qml
   QML_FILES
   Tube.qml
-  QML_FILES Bullet.qml)
+  QML_FILES
+  Bullet.qml
+  QML_FILES
+  Enemy.qml
+  QML_FILES
+  GameOver.qml
+  QML_FILES
+  Gamesuccess.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

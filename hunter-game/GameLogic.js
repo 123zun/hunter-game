@@ -1,3 +1,5 @@
+var a=0
+var b=0
 function gameStart() {
     clearBricks()
     points=0
@@ -82,6 +84,7 @@ var size = 40
 var x = cloud.x, y = cloud.y
 createBean(x+x*0.5,y+y*0.5,size)
 }
+
 //brick
 var brickComponent = Qt.createComponent("Brick.qml")
 function createbrick() {
@@ -140,9 +143,13 @@ function totube(){
 }
 //tube
 var tubeComponent=Qt.createComponent("Tube.qml")
+var enemyComponent = Qt.createComponent("Enemy.qml")
 function createtube(x, y) {
 
-tubeComponent.createObject(board, {"x": x, "y": y})
+    tubeComponent.createObject(board, {"x": x, "y": y})
+
+    x+=40
+    enemyComponent.createObject(board, {"x": x, "y": y})
 }
 //bullet
 var bulletComponent=Qt.createComponent("Bullet.qml")
@@ -156,8 +163,88 @@ else if (dir === 2)
     createbullet(board.width, getrandom(board.height*0.1, board.height*0.8), "right")
 
 }
-
 function createbullet(x, y, direction) {
 
 bulletComponent.createObject(board, {"x": x, "y": y, "direction": direction})
+}
+
+
+//enemy
+function checkenemyCollision() {
+    if (crashed) {
+        return
+    }
+
+    if (checkCollision(player, this)) {
+        crashed = true
+        opacity = 0
+        livesLost++
+    }
+}
+
+function gameOver() {
+    clearBricks()
+    tubetimer.stop()
+    score = points
+    player.x = board.width*0.5
+    player.y = board.height*0.5
+    player.visible=false
+}
+function destroyObject(object) {
+    object.destroy()
+}
+
+function restart(){
+    resetPlayer()
+    gameStart()
+    player.focus = true
+    player.visible=true
+    pausePanel.visible = false
+}
+
+function returnmenu(){
+    screenLoader.source = "MenuScreen.qml"
+    pausePanel.visible = false
+}
+
+function resetPlayer() {
+        player.x = board.width / 2
+        player.y = board.height / 2;
+}
+
+function playerdie(){
+    if (livesLost >= heartCount) {
+        gameOver()
+    }
+}
+function gamewin(){
+    clearBricks()
+    tubetimer.stop()
+    score = points
+    player.x = board.width*0.5
+    player.y = board.height*0.5
+    player.visible=false
+}
+function playerwin(){
+    if(points===5){
+        gamewin()
+    }
+}
+function pause(){
+    player.visible=false
+    pausePanel.visible=true
+    tubetimer.stop()
+    cloudtimer.stop()
+    bullettimer.stop()
+    a=livesLost
+    b=points
+}
+function continu(){
+    player.visible=true
+    pausePanel.visible = false
+    player.focus = true
+    tubetimer.start()
+    cloudtimer.start()
+    livesLost = a
+    points=b
 }
