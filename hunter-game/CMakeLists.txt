@@ -39,6 +39,9 @@ qt_add_qml_module(
   images/bullet.png
   images/heart-on.png
   images/heart-off.png
+  images/background2.png
+  images/bullet2.png
+  images/ghost.png
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -66,7 +69,12 @@ qt_add_qml_module(
   QML_FILES
   GameOver.qml
   QML_FILES
-  Gamesuccess.qml)
+  Gamesuccess.qml
+  QML_FILES Choosegame.qml
+  QML_FILES Bullet2.qml
+  QML_FILES Bean2.qml
+  QML_FILES Ghost.qml
+  QML_FILES Gamescreen2.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

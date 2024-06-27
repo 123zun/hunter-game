@@ -248,3 +248,50 @@ function continu(){
     livesLost = a
     points=b
 }
+var ghostComponent=Qt.createComponent("Ghost.qml")
+function createghost(){
+
+    ghostComponent.createObject(board2, {"x":1600, "y": 200})
+    ghostComponent.createObject(board2, {"x":200, "y": 800})
+    ghostComponent.createObject(board2, {"x":600, "y": 500})
+    ghostComponent.createObject(board2, {"x":1200, "y": 300})
+    ghostComponent.createObject(board2, {"x":50, "y": 50})
+    ghostComponent.createObject(board2, {"x":1200, "y": 900})
+
+}
+function fireBullet() {
+
+    var possibleDirections = ["up", "down", "left", "right"]
+    var randomIndex = Math.floor(Math.random() * possibleDirections.length)
+    var direction = possibleDirections[randomIndex]
+
+    var x=ghost.x + ghost.width/2
+    var y=ghost.y + ghost.height/2
+
+    shoot(x,y,direction)
+}
+var bullet2Component=Qt.createComponent("Bullet2.qml")
+function shoot(x,y,direction){
+    bullet2Component.createObject(board2, {"x": x, "y": y, "direction": direction})
+}
+var bean2Component=Qt.createComponent("Bean2.qml")
+function createbean2(){
+
+    bean2Component.createObject(board2, {"x":1600, "y": 200})
+    bean2Component.createObject(board2, {"x":200, "y": 800})
+    bean2Component.createObject(board2, {"x":600, "y": 500})
+    bean2Component.createObject(board2, {"x":1200, "y": 300})
+    bean2Component.createObject(board2, {"x":50, "y": 50})
+    bean2Component.createObject(board2, {"x":1200, "y": 900})
+
+}
+function gameStart2() {
+    clearghost()
+    clearbean2()
+    points=0
+    livesLost = 0
+    player.visible = true
+    ghosttimer.start()
+    createbean2()
+
+}
