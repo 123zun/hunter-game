@@ -13,8 +13,8 @@ Image {
     height: 70
 
     fillMode: Image.PreserveAspectFit
-    source: "images/player-" + state + ".png"
-    state: "closed"
+    source: "images/player_" + state + ".png"
+    state: "1"
 
     property int speed: 100
     Behavior on x { PropertyAnimation { duration: 100} }
@@ -23,6 +23,6 @@ Image {
         repeat: true
         running: true
         interval: 200
-        onTriggered: parent.state = (parent.state === "closed" ? "opened" : "closed")
+        onTriggered: parent.state = (parent.state === "1" ? "2" : "1")
      }
     }

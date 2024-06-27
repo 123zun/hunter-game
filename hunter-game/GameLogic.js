@@ -1,3 +1,5 @@
+var a=0
+var b=0
 function gameStart() {
     clearBricks()
     points=0
@@ -227,4 +229,22 @@ function playerwin(){
     if(points===5){
         gamewin()
     }
+}
+function pause(){
+    player.visible=false
+    pausePanel.visible=true
+    tubetimer.stop()
+    cloudtimer.stop()
+    bullettimer.stop()
+    a=livesLost
+    b=points
+}
+function continu(){
+    player.visible=true
+    pausePanel.visible = false
+    player.focus = true
+    tubetimer.start()
+    cloudtimer.start()
+    livesLost = a
+    points=b
 }

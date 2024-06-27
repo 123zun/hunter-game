@@ -2,10 +2,11 @@ import QtQuick
 import QtQuick.Window
 import QtQuick.Layouts
 import QtQuick.Controls
+import QtMultimedia
 
 import "GameLogic.js" as GameLogic
 
-Item {
+Window {
     id: board
     visible: true
 
@@ -29,8 +30,9 @@ Item {
     onPointsChanged: {
         GameLogic.playerwin()
     }
-
-    Component.onCompleted: GameLogic.gameStart()
+    Component.onCompleted: {
+        GameLogic.gameStart()
+    }
 
     Timer {
         id:cloudtimer
@@ -39,7 +41,6 @@ Item {
         interval:4000
         onTriggered: GameLogic.createCloud()
     }
-
     Timer {
         id:bricktimer
         repeat: false
@@ -58,7 +59,6 @@ Item {
             GameLogic.totube()
         }
     }
-
     Timer {
         id: bullettimer
         repeat: true
@@ -69,7 +69,6 @@ Item {
             GameLogic.createbullete()
         }
     }
-
     Image {
         id: background
         anchors { fill: parent }
@@ -78,7 +77,7 @@ Item {
 
     RowLayout {
 
-        visible: !gameOver
+        visible: !gameOver && !gamewin
         anchors { left: parent.left; top: parent.top; margins: 64 }
 
         Text {
@@ -99,9 +98,10 @@ Item {
             text: points
         }
     }
+
     RowLayout {
         z:50
-        visible: !gameOver
+        visible: !gameOver && !gamewin
         anchors { right: parent.right; top: parent.top; margins: 64 }
         Text{
             text:"HP:"
@@ -130,38 +130,98 @@ Item {
         visible:gamewin
     }
 
-    Player {
-            id: player
-
-            property int speed: 50
-            focus: true
-
-            //Player的键盘控制
-            Keys.onPressed: {
-                switch(event.key) {
-                case Qt.Key_Left:
-                    player.x = Math.max(0, x - speed)
-                    console.log("qml.Player moved left ")
-                    break
-                case Qt.Key_Right:
-                    player.x = Math.min(board.width - width, x + speed)
-                     console.log("qml.Player moved right ")
-                    break
-                case Qt.Key_Up:
-                    player.y = Math.max(0, y - speed)
-                     console.log("qml.Player moved up ")
-                    break
-                case Qt.Key_Down:
-                    player.y = Math.min(board.height - height, y + speed)
-                     console.log("qml.Player moved down ")
-                    break
-                }
-            }
-
-             onXChanged: {
-                 cloudtimer.start()
-                 tubetimer.start()
-                 bullettimer.start()
-             }
+    Label {
+        z:50
+        visible:!gameOver && !gamewin
+        id: pauseButton
+        text: "暂停"
+        width: 80
+        height: 50
+        font.pixelSize: 40
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        TapHandler{
+        onTapped: {
+            GameLogic.pause()
         }
+        }
+    }
+    Rectangle {
+        z:50
+        id: pausePanel
+        width: board.width
+        height: board.height
+        color: "transparent"
+        visible: false
+        anchors.centerIn: parent
+
+        Column {
+            anchors.centerIn: parent
+            Text {
+                text: "游戏暂停"
+                font.bold: true
+                font.pixelSize: 48
+            }
+            GameButton {
+                text: "继续"
+                font.bold: true
+                onClicked: {GameLogic.continu()}
+            }
+            GameButton {
+                text: "重新开始"
+                onClicked: {GameLogic.restart()}
+            }
+            GameButton {
+                text: "返回主界面"
+                onClicked: {GameLogic.returnmenu()}
+            }
+            GameButton {
+                text: "退出游戏"
+                onClicked: Qt.quit()
+            }
+        }
+    }
+
+
+
+    Player {
+                id: player
+
+                property int speed: 50
+                focus: true
+
+                Keys.onPressed: {
+
+                    if (pausePanel.visible) {
+                                return
+                            }
+                    switch(event.key) {
+                        case Qt.Key_Left:
+                            console.log("qml.Player moved left")
+                            player.x = Math.max(0, player.x - speed);
+                            player.rotation=180
+                            break;
+                        case Qt.Key_Right:
+                            console.log("qml.Player moved right")
+                            player.x = Math.min(board.width - player.width, player.x + speed);
+                            player.rotation=0
+                            break;
+                        case Qt.Key_Up:
+                            console.log("qml.Player moved up")
+                            player.y = Math.max(0, player.y - speed);
+                            player.rotation=270
+                            break;
+                        case Qt.Key_Down:
+                            console.log("qml.Player moved down")
+                            player.y = Math.min(board.height - player.height, player.y + speed);
+                            player.rotation=90
+                            break;
+                        }
+                }
+                 onXChanged: {
+                     tubetimer.start()
+                     cloudtimer.start()
+                     bullettimer.start()
+                 }
+            }
 }

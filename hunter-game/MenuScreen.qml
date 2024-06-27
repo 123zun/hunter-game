@@ -1,15 +1,11 @@
 import QtQuick
 import QtQuick.Controls
+import QtMultimedia
+import QtQuick.Window
 
 Item{
     id: menuScreen
     anchors.fill: parent
-
-    Item{
-     id:font
-    }
-
-
     Column {
         anchors.centerIn: parent
         spacing: 10
@@ -19,14 +15,14 @@ Item{
             text: "MENU"
             color: "white"
             font.bold: true
-            font.pixelSize: 40
+            font.pixelSize: 50
         }
 
         GameButton {
             id: gameButton
-            text: "Start"
+            text: "New game"
             onClicked: {
-                screenLoader.source = "GameScreen.qml"
+                screenLoader.source = "Choosegame.qml"
             }
         }
 
@@ -38,5 +34,4 @@ Item{
             }
         }
     }
-
 }

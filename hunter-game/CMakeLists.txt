@@ -23,8 +23,8 @@ qt_add_qml_module(
   RESOURCES
   images/yellow_button01.png
   images/tube.png
-  images/player-closed.png
-  images/player-opened.png
+  images/player_1.png
+  images/player_2.png
   images/blue_button01.png
   images/bean.png
   images/background.png
@@ -63,8 +63,13 @@ qt_add_qml_module(
   Bullet.qml
   QML_FILES
   Enemy.qml
-  QML_FILES GameOver.qml
-  QML_FILES Gamesuccess.qml)
+  QML_FILES
+  GameOver.qml
+  QML_FILES
+  Gamesuccess.qml
+  QML_FILES Choosegame.qml
+  QML_FILES Bean2.qml
+  QML_FILES Bullet2.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

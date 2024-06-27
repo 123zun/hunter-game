@@ -1,4 +1,4 @@
-//游戏结束界面
+//定义了一个游戏结束界面，显示游戏得分和一个重新开始游戏的选项
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
@@ -60,4 +60,5 @@ Item {
         }
     }
 }
+
 
