@@ -42,6 +42,14 @@ qt_add_qml_module(
   images/background2.png
   images/bullet2.png
   images/ghost.png
+  audio/begin.mp3
+  audio/bgm.mp3
+  audio/damage.mp3
+  audio/goal.mp3
+  audio/main.gif
+  audio/menu.gif
+  audio/shibai.mp3
+  audio/victory.mp3
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -70,11 +78,19 @@ qt_add_qml_module(
   GameOver.qml
   QML_FILES
   Gamesuccess.qml
-  QML_FILES Choosegame.qml
-  QML_FILES Bullet2.qml
-  QML_FILES Bean2.qml
-  QML_FILES Ghost.qml
-  QML_FILES Gamescreen2.qml)
+  QML_FILES
+  Choosegame.qml
+  QML_FILES
+  Bullet2.qml
+  QML_FILES
+  Bean2.qml
+  QML_FILES
+  Ghost.qml
+  QML_FILES
+  Gamescreen2.qml
+  QML_FILES Pause.qml
+  QML_FILES GameOver2.qml
+  QML_FILES Gamesuccess2.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

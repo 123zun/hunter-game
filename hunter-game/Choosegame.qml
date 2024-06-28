@@ -6,6 +6,19 @@ Item {
     id: gamechoose
     anchors.fill: parent
 
+    MediaPlayer {
+        id: choosegameplayer
+        audioOutput: AudioOutput{}
+        source: "audio/begin.mp3"
+        loops: MediaPlayer.Infinite
+        Component.onCompleted: {play()}
+    }
+    AnimatedImage {
+            id: choosebackground
+            anchors.fill: parent
+            source: "audio/menu.gif"
+
+        }
     Column {
         spacing: 10
         anchors.centerIn: parent

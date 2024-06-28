@@ -25,6 +25,41 @@ Window {
     signal clearghost()
     signal clearbean2()
 
+    onLivesLostChanged: {
+        GameLogic.playerdie2()
+        damageplayer2.play()
+    }
+    onPointsChanged: {
+        GameLogic.playerwin2()
+        goalplayer2.play()
+    }
+
+    MediaPlayer {
+        id: goalplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/goal.mp3"
+    }
+
+    MediaPlayer {
+        id: damageplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/damage.mp3"
+    }
+    MediaPlayer {
+        id:loseplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/shibai.mp3"
+    }
+    MediaPlayer {
+        id:winplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/victory.mp3"
+    }
+    MediaPlayer {
+        id: bgmplayer2
+        audioOutput: AudioOutput{}
+        source: "audio/bgm.mp3"
+    }
 
     Component.onCompleted: GameLogic.gameStart2()
 
@@ -54,7 +89,7 @@ Window {
         }
 
         Image {
-            visible: true
+            visible: !pausePanel2.visible
             fillMode: Image.PreserveAspectFit
             source: "images/bean.png"
         }
@@ -85,6 +120,67 @@ Window {
             }
         }
     }
+    Label {
+        z:50
+        visible:!gameOver2 && !gamewin2
+        id: pauseButton2
+        text: "暂停"
+        width: 80
+        height: 50
+        font.pixelSize: 40
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        TapHandler{
+        onTapped: {
+            GameLogic.pause2()
+        }
+        }
+    }
+    Rectangle {
+        z:50
+        id: pausePanel2
+        width: board2.width
+        height: board2.height
+        color: "transparent"
+        visible: false
+        anchors.centerIn: parent
+
+        Column {
+            anchors.centerIn: parent
+            Text {
+                text: "游戏暂停"
+                font.bold: true
+                font.pixelSize: 48
+            }
+            GameButton {
+                text: "继续"
+                font.bold: true
+                onClicked: {GameLogic.continu2()}
+            }
+            GameButton {
+                text: "重新开始"
+                onClicked: {GameLogic.restart2()}
+            }
+            GameButton {
+                text: "返回主界面"
+                onClicked: {GameLogic.returnmenu()}
+            }
+            GameButton {
+                text: "退出游戏"
+                onClicked: Qt.quit()
+            }
+        }
+    }
+    GameOver2 {
+          id: gameover2
+          z:50
+          visible: gameOver2 && !gamewin2
+      }
+    Gamesuccess2{
+        id:gamesuccess2
+        z:50
+        visible:gamewin2
+    }
 
     Ghost{
         id:ghost
@@ -98,6 +194,9 @@ Window {
 
             Keys.onPressed: {
 
+                if (pausePanel2.visible) {
+                            return
+                        }
                 switch(event.key) {
                     case Qt.Key_Left:
                         console.log("qml.Player moved left")
@@ -123,3 +222,4 @@ Window {
             }
         }
 }
+
