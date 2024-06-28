@@ -39,6 +39,8 @@ qt_add_qml_module(
   images/enemycenter.png
   images/enemyleft.png
   images/enemyright.png
+  audio/begin.mp3
+  audio/bgm.mp3
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -67,9 +69,17 @@ qt_add_qml_module(
   GameOver.qml
   QML_FILES
   Gamesuccess.qml
-  QML_FILES Choosegame.qml
-  QML_FILES Bean2.qml
-  QML_FILES Bullet2.qml)
+  QML_FILES
+  Choosegame.qml
+  QML_FILES
+  Bean2.qml
+  QML_FILES
+  Bullet2.qml
+  QML_FILES
+  GameScreen2.qml
+  QML_FILES
+  Ghost.qml
+  QML_FILES Gamesuccess2.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

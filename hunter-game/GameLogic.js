@@ -248,3 +248,111 @@ function continu(){
     livesLost = a
     points=b
 }
+function playerdie2(){
+    if (livesLost >= heartCount) {
+        console.log("player die")
+        gameover2()
+        bgmplayer2.stop()
+        loseplayer2.play()
+    }
+}
+function gameover2(){
+    console.log("game over")
+    score = points
+    player.x = board2.width*0.5
+    player.y = board2.height
+    player.visible=false
+}
+function pause2(){
+    console.log("game pause")
+    player.visible=false
+    pausePanel2.visible=true
+    c=livesLost
+    d=points
+}
+
+function continu2(){
+    console.log("game continu")
+    player.visible=true
+    pausePanel2.visible = false
+    player.focus = true
+    livesLost = c
+    points=d
+}
+function gameStart2() {
+    console.log("game satrt")
+    bgmplayer2.play()
+    clearghost()
+    clearbean2()
+    points=0
+    livesLost = 0
+    player.visible = true
+    ghosttimer.start()
+    createbean2()
+
+}
+function restart2(){
+    console.log("game start")
+    clearghost()
+    clearbean2()
+    pausePanel2.visible = false
+    resetPlayer2()
+    gameStart2()
+    player.focus = true
+    player.visible=true
+}
+function resetPlayer2() {
+    player.x = board2.width / 2
+    player.y = board2.height / 2;
+}
+function createghost(){
+
+    ghostComponent.createObject(board2, {"x":1600, "y": 200})
+    ghostComponent.createObject(board2, {"x":200, "y": 800})
+    ghostComponent.createObject(board2, {"x":600, "y": 500})
+    ghostComponent.createObject(board2, {"x":1200, "y": 300})
+    ghostComponent.createObject(board2, {"x":50, "y": 50})
+    ghostComponent.createObject(board2, {"x":1200, "y": 900})
+
+}
+function fireBullet() {
+
+    var possibleDirections = ["up", "down", "left", "right"]
+    var randomIndex = Math.floor(Math.random() * possibleDirections.length)
+    var direction = possibleDirections[randomIndex]
+
+    var x=ghost.x + ghost.width/2
+    var y=ghost.y + ghost.height/2
+
+    shoot(x,y,direction)
+}
+function shoot(x,y,direction){
+    bullet2Component.createObject(board2, {"x": x, "y": y, "direction": direction})
+}
+function createbean2(){
+
+    bean2Component.createObject(board2, {"x":1600, "y": 200})
+    bean2Component.createObject(board2, {"x":200, "y": 800})
+    bean2Component.createObject(board2, {"x":600, "y": 500})
+    bean2Component.createObject(board2, {"x":1200, "y": 300})
+    bean2Component.createObject(board2, {"x":50, "y": 50})
+    bean2Component.createObject(board2, {"x":1200, "y": 900})
+
+}
+function playerwin2(){
+    if(points===2)
+    {
+        console.log("you win")
+        bgmplayer2.stop()
+        // winplayer2()
+        gamewin2()
+    }
+}
+function gamewin2(){
+    clearbean2()
+    score = points
+    player.x = board2.width*0.5
+    player.y = board2.height*0.5
+    player.visible=false
+}
+
