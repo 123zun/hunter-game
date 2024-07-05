@@ -70,17 +70,33 @@ Image {
     }
 
     Timer {
+        id:ghostmove
         running: true
         interval: 1000
         repeat: true
         onTriggered: ghost.move()
     }
     Timer {
+        id:ghostfire
         repeat: true
         running: true
         interval: 3000
         onTriggered: {
             GameLogic.fireBullet()
+        }
+    }
+    Connections {
+        target: board2
+        function onGhostpause() {
+            ghostmove.stop()
+            ghostfire.stop()
+        }
+    }
+    Connections {
+        target: board2
+        function onGhostcontinu() {
+            ghostmove.start()
+            ghostfire.start()
         }
     }
 }

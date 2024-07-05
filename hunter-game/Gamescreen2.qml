@@ -20,10 +20,14 @@ Window {
     property int heartCount: 5
 
     property bool gameOver2: livesLost>= heartCount
-    property bool gamewin2: points>=2
+    property bool gamewin2: points>=6
 
     signal clearghost()
     signal clearbean2()
+    signal ghostpause()
+    signal ghostcontinu()
+    signal bean2pause()
+    signal bean2continu()
 
     onLivesLostChanged: {
         GameLogic.playerdie2()
@@ -185,6 +189,9 @@ Window {
     Ghost{
         id:ghost
     }
+    Bean2{
+        id:bean2
+    }
 
     Player {
             id: player
@@ -222,4 +229,3 @@ Window {
             }
         }
 }
-

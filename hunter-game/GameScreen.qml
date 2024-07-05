@@ -22,7 +22,7 @@ Window {
     property int heartCount: 5
 
     property bool gameOver: livesLost>= heartCount
-    property bool gamewin: points>=5
+    property bool gamewin: points>=12
 
     onLivesLostChanged: {
         GameLogic.playerdie()

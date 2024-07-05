@@ -68,9 +68,24 @@ Image {
     }
 
     Timer {
+        id:bean2move
         running: true
         interval: 1000
         repeat: true
         onTriggered: bean2.move()
     }
+
+    Connections {
+        target: board2
+        function onBean2pause() {
+            bean2move.stop()
+        }
+    }
+    Connections {
+        target: board2
+        function onBean2continu() {
+            bean2move.start()
+        }
+    }
 }
+

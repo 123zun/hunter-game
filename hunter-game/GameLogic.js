@@ -245,7 +245,7 @@ function crash() {
     opacity = 0
 }
 function playerwin(){
-    if(points===5){
+    if(points===12){
         winplayer.play()
         bgmplayer.stop()
         gamewin()
@@ -279,6 +279,8 @@ function pause2(){
     console.log("game pause")
     player.visible=false
     pausePanel2.visible=true
+    ghostpause()
+    bean2pause()
     c=livesLost
     d=points
 }
@@ -287,6 +289,8 @@ function continu2(){
     console.log("game continu")
     player.visible=true
     pausePanel2.visible = false
+    ghostcontinu()
+    bean2continu()
     player.focus = true
     livesLost = c
     points=d
@@ -320,14 +324,14 @@ function resetPlayer2() {
 
 var ghostComponent = Qt.createComponent("Ghost.qml")
 
-function createghost(){
+function createbean2(){
 
-    ghostComponent.createObject(board2, {"x":1600, "y": 200})
-    ghostComponent.createObject(board2, {"x":200, "y": 800})
-    ghostComponent.createObject(board2, {"x":600, "y": 500})
-    ghostComponent.createObject(board2, {"x":1200, "y": 300})
-    ghostComponent.createObject(board2, {"x":50, "y": 50})
-    ghostComponent.createObject(board2, {"x":1200, "y": 900})
+    bean2Component.createObject(board2, {"x":1600, "y": 200})
+    bean2Component.createObject(board2, {"x":200, "y": 800})
+    bean2Component.createObject(board2, {"x":600, "y": 500})
+    bean2Component.createObject(board2, {"x":1200, "y": 300})
+    bean2Component.createObject(board2, {"x":50, "y": 50})
+    bean2Component.createObject(board2, {"x":1200, "y": 900})
 
 }
 var bullet2Component = Qt.createComponent("Bullet2.qml")
@@ -346,22 +350,25 @@ function shoot(x,y,direction){
     bullet2Component.createObject(board2, {"x": x, "y": y, "direction": direction})
 }
 var bean2Component = Qt.createComponent("Bean2.qml")
-function createbean2(){
+function createghost(){
 
-    bean2Component.createObject(board2, {"x":1600, "y": 200})
-    bean2Component.createObject(board2, {"x":200, "y": 800})
-    bean2Component.createObject(board2, {"x":600, "y": 500})
-    bean2Component.createObject(board2, {"x":1200, "y": 300})
-    bean2Component.createObject(board2, {"x":50, "y": 50})
-    bean2Component.createObject(board2, {"x":1200, "y": 900})
+    ghostComponent.createObject(board2, {"x":1600, "y": 200})
+    ghostComponent.createObject(board2, {"x":200, "y": 800})
+    ghostComponent.createObject(board2, {"x":600, "y": 500})
+    ghostComponent.createObject(board2, {"x":1200, "y": 300})
+    ghostComponent.createObject(board2, {"x":50, "y": 50})
+    ghostComponent.createObject(board2, {"x":1200, "y": 900})
+    ghostComponent.createObject(board2, {"x":1500, "y": 600})
+    ghostComponent.createObject(board2, {"x":1000, "y": 400})
+    ghostComponent.createObject(board2, {"x":950,"y":800 })
 
 }
 function playerwin2(){
-    if(points===2)
+    if(points===6)
     {
         console.log("you win")
         bgmplayer2.stop()
-        // winplayer2()
+        winplayer2.play()
         gamewin2()
     }
 }
