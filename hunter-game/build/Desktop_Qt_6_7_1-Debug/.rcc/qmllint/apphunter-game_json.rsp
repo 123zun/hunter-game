@@ -20,5 +20,13 @@
 /root/hunter-game/hunter-game/Gamesuccess2.qml
 /root/hunter-game/hunter-game/Ghost.qml
 /root/hunter-game/hunter-game/Gamesuccess.qml
+/root/hunter-game/hunter-game/Bean.qml
+/root/hunter-game/hunter-game/Bean2.qml
+/root/hunter-game/hunter-game/Brick.qml
+/root/hunter-game/hunter-game/Bullet.qml
+/root/hunter-game/hunter-game/Bullet2.qml
+/root/hunter-game/hunter-game/Cloud.qml
+/root/hunter-game/hunter-game/Enemy.qml
+/root/hunter-game/hunter-game/Tube.qml
 --json
 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmllint.json

@@ -73,7 +73,15 @@ qt_add_qml_module(
   QML_FILES
   Ghost.qml
   QML_FILES
-  Gamesuccess.qml)
+  Gamesuccess.qml
+  QML_FILES Bean.qml
+  QML_FILES Bean2.qml
+  QML_FILES Brick.qml
+  QML_FILES Bullet.qml
+  QML_FILES Bullet2.qml
+  QML_FILES Cloud.qml
+  QML_FILES Enemy.qml
+  QML_FILES Tube.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

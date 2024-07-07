@@ -87,6 +87,14 @@ CMakeFiles/apphunter-game_qmlimportscan: .qt/qml_imports/apphunter-game_build.cm
 .qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Gamesuccess2.qml
 .qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Ghost.qml
 .qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Gamesuccess.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Bean.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Bean2.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Brick.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Bullet.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Bullet2.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Cloud.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Enemy.qml
+.qt/qml_imports/apphunter-game_build.cmake: /root/hunter-game/hunter-game/Tube.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for apphunter-game"
 	cd /root/hunter-game/hunter-game && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/apphunter-game_build.rsp
 

@@ -71,7 +71,7 @@ function createtube(x, y) {
 
     tubeComponent.createObject(board, {"x": x, "y": y})
 
-    x+=40
+    x+=33
     enemyComponent.createObject(board, {"x": x, "y": y})
 }
 

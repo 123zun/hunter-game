@@ -240,6 +240,86 @@ hunter-game/apphunter-game.qmltypes: apphunter-game_qmltyperegistrations.cpp
 	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Gamesuccess.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp /root/hunter-game/hunter-game/Gamesuccess.qml
 
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: /root/hunter-game/hunter-game/Bean.qml
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Bean_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating .rcc/qmlcache/apphunter-game_Bean_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Bean.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp /root/hunter-game/hunter-game/Bean.qml
+
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: /root/hunter-game/hunter-game/Bean2.qml
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Bean2_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating .rcc/qmlcache/apphunter-game_Bean2_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Bean2.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp /root/hunter-game/hunter-game/Bean2.qml
+
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: /root/hunter-game/hunter-game/Brick.qml
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Brick_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating .rcc/qmlcache/apphunter-game_Brick_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Brick.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp /root/hunter-game/hunter-game/Brick.qml
+
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: /root/hunter-game/hunter-game/Bullet.qml
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Bullet_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating .rcc/qmlcache/apphunter-game_Bullet_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Bullet.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp /root/hunter-game/hunter-game/Bullet.qml
+
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: /root/hunter-game/hunter-game/Bullet2.qml
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating .rcc/qmlcache/apphunter-game_Bullet2_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Bullet2.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp /root/hunter-game/hunter-game/Bullet2.qml
+
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: /root/hunter-game/hunter-game/Cloud.qml
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Cloud_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating .rcc/qmlcache/apphunter-game_Cloud_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Cloud.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp /root/hunter-game/hunter-game/Cloud.qml
+
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: /root/hunter-game/hunter-game/Enemy.qml
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Enemy_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating .rcc/qmlcache/apphunter-game_Enemy_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Enemy.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp /root/hunter-game/hunter-game/Enemy.qml
+
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: /root/hunter-game/hunter-game/Tube.qml
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: .qt/rcc/qmake_hunter-game.qrc
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: hunter-game/apphunter-game.qmltypes
+.rcc/qmlcache/apphunter-game_Tube_qml.cpp: hunter-game/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating .rcc/qmlcache/apphunter-game_Tube_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /hunter-game/Tube.qml -I /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/qmldir --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_hunter-game.qrc --resource /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc -o /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp /root/hunter-game/hunter-game/Tube.qml
+
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Main.qml
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Player.qml
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/GameLogic.js
@@ -253,6 +333,14 @@ hunter-game/apphunter-game.qmltypes: apphunter-game_qmltyperegistrations.cpp
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Gamesuccess2.qml
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Ghost.qml
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Gamesuccess.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Bean.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Bean2.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Brick.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Bullet.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Bullet2.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Cloud.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Enemy.qml
+.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/Tube.qml
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/yellow_button01.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/blue_button01.png
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/images/brick.png
@@ -284,22 +372,22 @@ hunter-game/apphunter-game.qmltypes: apphunter-game_qmltyperegistrations.cpp
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /root/hunter-game/hunter-game/audio/menu.gif
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: .qt/rcc/apphunter-game_raw_qml_0.qrc
 .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running rcc for resource apphunter-game_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running rcc for resource apphunter-game_raw_qml_0"
 	/opt/Qt/6.7.1/gcc_64/libexec/rcc --output /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp --name apphunter-game_raw_qml_0 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/apphunter-game_raw_qml_0.qrc --no-zstd
 
 meta_types/apphunter-game_json_file_list.txt: /opt/Qt/6.7.1/gcc_64/./libexec/cmake_automoc_parser
 meta_types/apphunter-game_json_file_list.txt: apphunter-game_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running AUTOMOC file extraction for target apphunter-game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running AUTOMOC file extraction for target apphunter-game"
 	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/ParseCache.txt --cmake-autogen-info-file /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/apphunter-game_autogen.dir/AutogenInfo.json --output-file-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt --timestamp-file-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/meta_types/apphunter-game_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/include
 
 meta_types/qt6apphunter-game_debug_metatypes.json: meta_types/qt6apphunter-game_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating meta_types/qt6apphunter-game_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating meta_types/qt6apphunter-game_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o: apphunter-game_autogen/mocs_compilation.cpp
 CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o -MF CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_autogen/mocs_compilation.cpp
 
 CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.i: cmake_force
@@ -313,7 +401,7 @@ CMakeFiles/apphunter-game.dir/apphunter-game_autogen/mocs_compilation.cpp.s: cma
 CMakeFiles/apphunter-game.dir/main.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/main.cpp.o: /root/hunter-game/hunter-game/main.cpp
 CMakeFiles/apphunter-game.dir/main.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/apphunter-game.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/apphunter-game.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/main.cpp.o -MF CMakeFiles/apphunter-game.dir/main.cpp.o.d -o CMakeFiles/apphunter-game.dir/main.cpp.o -c /root/hunter-game/hunter-game/main.cpp
 
 CMakeFiles/apphunter-game.dir/main.cpp.i: cmake_force
@@ -327,7 +415,7 @@ CMakeFiles/apphunter-game.dir/main.cpp.s: cmake_force
 CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o: apphunter-game_qmltyperegistrations.cpp
 CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o -MF CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o.d -o CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/apphunter-game_qmltyperegistrations.cpp
 
 CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.i: cmake_force
@@ -341,7 +429,7 @@ CMakeFiles/apphunter-game.dir/apphunter-game_qmltyperegistrations.cpp.s: cmake_f
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o: .qt/rcc/qrc_qmake_hunter-game.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.i: cmake_force
@@ -355,7 +443,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hun
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o: .rcc/qmlcache/apphunter-game_qmlcache_loader.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.i: cmake_force
@@ -369,7 +457,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o: .rcc/qmlcache/apphunter-game_Main_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Main_qml.cpp.i: cmake_force
@@ -383,7 +471,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o: .rcc/qmlcache/apphunter-game_Player_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.i: cmake_force
@@ -397,7 +485,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o: .rcc/qmlcache/apphunter-game_GameLogic_js.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameLogic_js.cpp.i: cmake_force
@@ -411,7 +499,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o: .rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp.i: cmake_force
@@ -425,7 +513,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o: .rcc/qmlcache/apphunter-game_GameButton_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.i: cmake_force
@@ -439,7 +527,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o: .rcc/qmlcache/apphunter-game_Choosegame_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.i: cmake_force
@@ -453,7 +541,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o: .rcc/qmlcache/apphunter-game_GameScreen_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameScreen_qml.cpp.i: cmake_force
@@ -467,7 +555,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o: .rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamescreen2_qml.cpp.i: cmake_force
@@ -481,7 +569,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o: .rcc/qmlcache/apphunter-game_GameOver_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver_qml.cpp.i: cmake_force
@@ -495,7 +583,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o: .rcc/qmlcache/apphunter-game_GameOver2_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameOver2_qml.cpp.i: cmake_force
@@ -509,7 +597,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o: .rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.i: cmake_force
@@ -523,7 +611,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o: .rcc/qmlcache/apphunter-game_Ghost_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.i: cmake_force
@@ -537,7 +625,7 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o: .rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.i: cmake_force
@@ -548,10 +636,122 @@ CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.s
 
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o: .rcc/qmlcache/apphunter-game_Bean_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o: .rcc/qmlcache/apphunter-game_Bean2_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o: .rcc/qmlcache/apphunter-game_Brick_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o: .rcc/qmlcache/apphunter-game_Bullet_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o: .rcc/qmlcache/apphunter-game_Bullet2_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o: .rcc/qmlcache/apphunter-game_Cloud_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o: .rcc/qmlcache/apphunter-game_Enemy_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o: .rcc/qmlcache/apphunter-game_Tube_qml.cpp
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp > CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i
+
+CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s
+
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o: CMakeFiles/apphunter-game.dir/flags.make
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o: .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o: CMakeFiles/apphunter-game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o -MF CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o.d -o CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o -c /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp
 
 CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.i: cmake_force
@@ -582,6 +782,14 @@ apphunter__game_OBJECTS = \
 "CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o" \
 "CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o" \
 "CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o" \
+"CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o" \
 "CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o"
 
 # External object files for target apphunter-game
@@ -605,6 +813,14 @@ apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/
 apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess2_qml.cpp.o
 apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Ghost_qml.cpp.o
 apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Gamesuccess_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o
+apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o
 apphunter-game: CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_apphunter-game_raw_qml_0.cpp.o
 apphunter-game: CMakeFiles/apphunter-game.dir/build.make
 apphunter-game: /opt/Qt/6.7.1/gcc_64/lib/libQt6Quick.so.6.7.1
@@ -618,7 +834,7 @@ apphunter-game: /opt/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1
 apphunter-game: /usr/lib/libGLX.so
 apphunter-game: /usr/lib/libOpenGL.so
 apphunter-game: CMakeFiles/apphunter-game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable apphunter-game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable apphunter-game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/apphunter-game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -631,7 +847,14 @@ CMakeFiles/apphunter-game.dir/clean:
 
 CMakeFiles/apphunter-game.dir/depend: .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp
 CMakeFiles/apphunter-game.dir/depend: .qt/rcc/qrc_qmake_hunter-game.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Bean2_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Bean_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Brick_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Bullet2_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Bullet_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Choosegame_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Cloud_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Enemy_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_GameButton_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_GameLogic_js.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_GameOver2_qml.cpp
@@ -644,6 +867,7 @@ CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Ghost_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Main_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Player_qml.cpp
+CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_Tube_qml.cpp
 CMakeFiles/apphunter-game.dir/depend: .rcc/qmlcache/apphunter-game_qmlcache_loader.cpp
 CMakeFiles/apphunter-game.dir/depend: apphunter-game_qmltyperegistrations.cpp
 CMakeFiles/apphunter-game.dir/depend: hunter-game/apphunter-game.qmltypes

@@ -121,123 +121,162 @@ hunter-game/Gamesuccess.qml: /root/hunter-game/hunter-game/Gamesuccess.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Copying Gamesuccess.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Gamesuccess.qml"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Gamesuccess.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Gamesuccess.qml
 
+hunter-game/Bean.qml: /root/hunter-game/hunter-game/Bean.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Copying Bean.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bean.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Bean.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bean.qml
+
+hunter-game/Bean2.qml: /root/hunter-game/hunter-game/Bean2.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying Bean2.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bean2.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Bean2.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bean2.qml
+
+hunter-game/Brick.qml: /root/hunter-game/hunter-game/Brick.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying Brick.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Brick.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Brick.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Brick.qml
+
+hunter-game/Bullet.qml: /root/hunter-game/hunter-game/Bullet.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying Bullet.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bullet.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Bullet.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bullet.qml
+
+hunter-game/Bullet2.qml: /root/hunter-game/hunter-game/Bullet2.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Copying Bullet2.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bullet2.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Bullet2.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Bullet2.qml
+
+hunter-game/Cloud.qml: /root/hunter-game/hunter-game/Cloud.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Copying Cloud.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Cloud.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Cloud.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Cloud.qml
+
+hunter-game/Enemy.qml: /root/hunter-game/hunter-game/Enemy.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Copying Enemy.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Enemy.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Enemy.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Enemy.qml
+
+hunter-game/Tube.qml: /root/hunter-game/hunter-game/Tube.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Copying Tube.qml to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Tube.qml"
+	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/Tube.qml /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/Tube.qml
+
 hunter-game/images/yellow_button01.png: /root/hunter-game/hunter-game/images/yellow_button01.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Copying images/yellow_button01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/yellow_button01.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/yellow_button01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/yellow_button01.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/yellow_button01.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/yellow_button01.png
 
 hunter-game/images/blue_button01.png: /root/hunter-game/hunter-game/images/blue_button01.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying images/blue_button01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/blue_button01.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/blue_button01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/blue_button01.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/blue_button01.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/blue_button01.png
 
 hunter-game/images/brick.png: /root/hunter-game/hunter-game/images/brick.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying images/brick.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/brick.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Copying images/brick.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/brick.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/brick.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/brick.png
 
 hunter-game/images/background.png: /root/hunter-game/hunter-game/images/background.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying images/background.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Copying images/background.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/background.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background.png
 
 hunter-game/images/cloud_01.png: /root/hunter-game/hunter-game/images/cloud_01.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Copying images/cloud_01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_01.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Copying images/cloud_01.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_01.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/cloud_01.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_01.png
 
 hunter-game/images/cloud_02.png: /root/hunter-game/hunter-game/images/cloud_02.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Copying images/cloud_02.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_02.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Copying images/cloud_02.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_02.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/cloud_02.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_02.png
 
 hunter-game/images/cloud_03.png: /root/hunter-game/hunter-game/images/cloud_03.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Copying images/cloud_03.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_03.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Copying images/cloud_03.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_03.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/cloud_03.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/cloud_03.png
 
 hunter-game/images/bean.png: /root/hunter-game/hunter-game/images/bean.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Copying images/bean.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bean.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Copying images/bean.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bean.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/bean.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bean.png
 
 hunter-game/images/player_1.png: /root/hunter-game/hunter-game/images/player_1.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Copying images/player_1.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_1.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Copying images/player_1.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_1.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player_1.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_1.png
 
 hunter-game/images/player_2.png: /root/hunter-game/hunter-game/images/player_2.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Copying images/player_2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_2.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Copying images/player_2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_2.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/player_2.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/player_2.png
 
 hunter-game/images/heart-off.png: /root/hunter-game/hunter-game/images/heart-off.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Copying images/heart-off.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-off.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Copying images/heart-off.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-off.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/heart-off.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-off.png
 
 hunter-game/images/heart-on.png: /root/hunter-game/hunter-game/images/heart-on.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Copying images/heart-on.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-on.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Copying images/heart-on.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-on.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/heart-on.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/heart-on.png
 
 hunter-game/images/enemyback.png: /root/hunter-game/hunter-game/images/enemyback.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Copying images/enemyback.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyback.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Copying images/enemyback.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyback.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/enemyback.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyback.png
 
 hunter-game/images/enemycenter.png: /root/hunter-game/hunter-game/images/enemycenter.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Copying images/enemycenter.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemycenter.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Copying images/enemycenter.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemycenter.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/enemycenter.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemycenter.png
 
 hunter-game/images/enemyleft.png: /root/hunter-game/hunter-game/images/enemyleft.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Copying images/enemyleft.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyleft.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Copying images/enemyleft.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyleft.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/enemyleft.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyleft.png
 
 hunter-game/images/enemyright.png: /root/hunter-game/hunter-game/images/enemyright.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Copying images/enemyright.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyright.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Copying images/enemyright.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyright.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/enemyright.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/enemyright.png
 
 hunter-game/images/tube.png: /root/hunter-game/hunter-game/images/tube.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Copying images/tube.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/tube.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Copying images/tube.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/tube.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/tube.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/tube.png
 
 hunter-game/images/bullet.png: /root/hunter-game/hunter-game/images/bullet.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Copying images/bullet.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Copying images/bullet.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/bullet.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet.png
 
 hunter-game/images/ghost.png: /root/hunter-game/hunter-game/images/ghost.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Copying images/ghost.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/ghost.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Copying images/ghost.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/ghost.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/ghost.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/ghost.png
 
 hunter-game/images/bullet2.png: /root/hunter-game/hunter-game/images/bullet2.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Copying images/bullet2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet2.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Copying images/bullet2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet2.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/bullet2.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/bullet2.png
 
 hunter-game/images/background2.png: /root/hunter-game/hunter-game/images/background2.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Copying images/background2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background2.png"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Copying images/background2.png to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background2.png"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/images/background2.png /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/images/background2.png
 
 hunter-game/audio/begin.mp3: /root/hunter-game/hunter-game/audio/begin.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Copying audio/begin.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/begin.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Copying audio/begin.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/begin.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/begin.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/begin.mp3
 
 hunter-game/audio/bgm.mp3: /root/hunter-game/hunter-game/audio/bgm.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Copying audio/bgm.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/bgm.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Copying audio/bgm.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/bgm.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/bgm.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/bgm.mp3
 
 hunter-game/audio/goal.mp3: /root/hunter-game/hunter-game/audio/goal.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Copying audio/goal.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/goal.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Copying audio/goal.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/goal.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/goal.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/goal.mp3
 
 hunter-game/audio/damage.mp3: /root/hunter-game/hunter-game/audio/damage.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Copying audio/damage.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/damage.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Copying audio/damage.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/damage.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/damage.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/damage.mp3
 
 hunter-game/audio/shibai.mp3: /root/hunter-game/hunter-game/audio/shibai.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Copying audio/shibai.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/shibai.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Copying audio/shibai.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/shibai.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/shibai.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/shibai.mp3
 
 hunter-game/audio/victory.mp3: /root/hunter-game/hunter-game/audio/victory.mp3
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Copying audio/victory.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/victory.mp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Copying audio/victory.mp3 to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/victory.mp3"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/victory.mp3 /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/victory.mp3
 
 hunter-game/audio/main.gif: /root/hunter-game/hunter-game/audio/main.gif
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Copying audio/main.gif to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/main.gif"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Copying audio/main.gif to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/main.gif"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/main.gif /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/main.gif
 
 hunter-game/audio/menu.gif: /root/hunter-game/hunter-game/audio/menu.gif
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Copying audio/menu.gif to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/menu.gif"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Copying audio/menu.gif to /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/menu.gif"
 	cd /root/hunter-game/hunter-game && /usr/bin/cmake -E copy /root/hunter-game/hunter-game/audio/menu.gif /root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/hunter-game/audio/menu.gif
 
+apphunter-game_tooling: hunter-game/Bean.qml
+apphunter-game_tooling: hunter-game/Bean2.qml
+apphunter-game_tooling: hunter-game/Brick.qml
+apphunter-game_tooling: hunter-game/Bullet.qml
+apphunter-game_tooling: hunter-game/Bullet2.qml
 apphunter-game_tooling: hunter-game/Choosegame.qml
+apphunter-game_tooling: hunter-game/Cloud.qml
+apphunter-game_tooling: hunter-game/Enemy.qml
 apphunter-game_tooling: hunter-game/GameButton.qml
 apphunter-game_tooling: hunter-game/GameLogic.js
 apphunter-game_tooling: hunter-game/GameOver.qml
@@ -250,6 +289,7 @@ apphunter-game_tooling: hunter-game/Ghost.qml
 apphunter-game_tooling: hunter-game/Main.qml
 apphunter-game_tooling: hunter-game/MenuScreen.qml
 apphunter-game_tooling: hunter-game/Player.qml
+apphunter-game_tooling: hunter-game/Tube.qml
 apphunter-game_tooling: hunter-game/audio/begin.mp3
 apphunter-game_tooling: hunter-game/audio/bgm.mp3
 apphunter-game_tooling: hunter-game/audio/damage.mp3

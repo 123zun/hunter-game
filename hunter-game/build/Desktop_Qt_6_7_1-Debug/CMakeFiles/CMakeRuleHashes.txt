@@ -2,7 +2,14 @@
 1343e737785e6b9008907baf273094e0 .qt/qml_imports/apphunter-game_build.cmake
 cce98381b6b166bd7c5182c0534a6eeb .qt/rcc/qrc_apphunter-game_raw_qml_0.cpp
 e534efd93eaff84d88bf505b39ddf422 .qt/rcc/qrc_qmake_hunter-game.cpp
+076cafdd98f40dee1612cbefca36996f .rcc/qmlcache/apphunter-game_Bean2_qml.cpp
+b6be37a82cf5ab350c1aa1eac129a6c6 .rcc/qmlcache/apphunter-game_Bean_qml.cpp
+3bab3bedbe2b418a07bedfd829668cc1 .rcc/qmlcache/apphunter-game_Brick_qml.cpp
+5e740ade6ebf598c83174e2f3bdb9205 .rcc/qmlcache/apphunter-game_Bullet2_qml.cpp
+943b547255fb2a2abd18fa5ef482bf17 .rcc/qmlcache/apphunter-game_Bullet_qml.cpp
 250f1ad4a2b8db78468efc43d1ca3b4a .rcc/qmlcache/apphunter-game_Choosegame_qml.cpp
+491ea93f94208b25a1dbc456246741b9 .rcc/qmlcache/apphunter-game_Cloud_qml.cpp
+4d40e9642e47ab73e99e62095bdab869 .rcc/qmlcache/apphunter-game_Enemy_qml.cpp
 c9b9e589a660a479c8da9a8695cecf93 .rcc/qmlcache/apphunter-game_GameButton_qml.cpp
 a930e7846405ce47a34876cec34392b9 .rcc/qmlcache/apphunter-game_GameLogic_js.cpp
 abf6a55e86eba00379b6820aa7cd403c .rcc/qmlcache/apphunter-game_GameOver2_qml.cpp
@@ -15,6 +22,7 @@ ac33067d97115809834ba2e5ee186960 .rcc/qmlcache/apphunter-game_Gamesuccess_qml.cp
 87338c305753a37446f5449bb93a52e6 .rcc/qmlcache/apphunter-game_Main_qml.cpp
 1bc0ced0732f2e3ae53c8f63ea7fffa4 .rcc/qmlcache/apphunter-game_MenuScreen_qml.cpp
 1b4ee088e8818aaad435633376848f0e .rcc/qmlcache/apphunter-game_Player_qml.cpp
+d215d61ac2c8aee87c66f03ee8af6d33 .rcc/qmlcache/apphunter-game_Tube_qml.cpp
 a8cb7aee4838b85ddec6f06c79860796 .rcc/qmlcache/apphunter-game_qmlcache_loader.cpp
 f93cc446692e57ca8e5837765681d7d6 CMakeFiles/apphunter-game_autogen
 f93cc446692e57ca8e5837765681d7d6 CMakeFiles/apphunter-game_qmlimportscan
@@ -24,7 +32,14 @@ f93cc446692e57ca8e5837765681d7d6 CMakeFiles/apphunter-game_qmlimportscan
 f93cc446692e57ca8e5837765681d7d6 CMakeFiles/apphunter-game_qmltyperegistration
 7b85d916387b4178a4621ed6a637076d apphunter-game_autogen/timestamp
 d666c39c91ce2b397e37546d1ed8b76c apphunter-game_qmltyperegistrations.cpp
+66fad454113cccd0714762307fd9e7ad hunter-game/Bean.qml
+4fc70fcbb5b5563d5b0764b80f103834 hunter-game/Bean2.qml
+ec20216a03957053860eaec1a22439ef hunter-game/Brick.qml
+5996b9eeeda76464fbe2bafa97fa4256 hunter-game/Bullet.qml
+00a8b63ba7fe8113afc81d54caf31e1d hunter-game/Bullet2.qml
 9343771310a0b902ab5b02185e2045b2 hunter-game/Choosegame.qml
+c935a37cc474cb03f9412701d7e3eb13 hunter-game/Cloud.qml
+f7cbc45c0530da9f54b2fe7c7c1b23d5 hunter-game/Enemy.qml
 0655c2bec5285c5784f89c6a8f556b24 hunter-game/GameButton.qml
 a6b285e7cab713c7aa4d9d11660a349e hunter-game/GameLogic.js
 758b74e5910bfc9295f6c51443c1a90c hunter-game/GameOver.qml
@@ -37,6 +52,7 @@ cfb8b00196baf4494701809c150a1ce5 hunter-game/Gamesuccess2.qml
 11deec88a3f871f7fd7750ccc8b08a40 hunter-game/Main.qml
 7f037b08cc5b87379283a477891c438c hunter-game/MenuScreen.qml
 d477b3deffcceeacb57ce7803a4d5bc3 hunter-game/Player.qml
+2b7b3dcb2d9d1975c8c804d58cc450f8 hunter-game/Tube.qml
 8c4f9e913b889a0001f3d809eafaab39 hunter-game/audio/begin.mp3
 cde8c6e16089e3c4728a0a4657754bf6 hunter-game/audio/bgm.mp3
 467a59956bf1c192c960e7667974e146 hunter-game/audio/damage.mp3
@@ -62,8 +78,6 @@ ce8b92180154f414ca1e0bcd139e25d1 hunter-game/images/enemyright.png
 10eea826970f0784a5194fcb48ae11d5 hunter-game/images/ghost.png
 3af3ee53e85b587377fcbb46c42d31b4 hunter-game/images/heart-off.png
 d00f46b071433224e7984f8cc3e04c01 hunter-game/images/heart-on.png
-54f2268107361648cbe1a3ed120c7773 hunter-game/images/player-closed.png
-4596d8da312a1e81856a25516aa9c025 hunter-game/images/player-opened.png
 1eaba63eac777fc2849d1034aeaf3f4d hunter-game/images/player_1.png
 36ca446463d1b7748b2d099099629b84 hunter-game/images/player_2.png
 29c88be0685d9a8789a5ca9dbf5c4aa4 hunter-game/images/tube.png

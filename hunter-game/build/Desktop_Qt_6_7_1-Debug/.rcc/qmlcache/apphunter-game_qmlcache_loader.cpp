@@ -96,6 +96,62 @@ namespace _hunter_0x2d_game_Gamesuccess_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _hunter_0x2d_game_Bean_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Bean2_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Brick_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Bullet_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Bullet2_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Cloud_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Enemy_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _hunter_0x2d_game_Tube_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -123,6 +179,14 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Gamesuccess2.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Gamesuccess2_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Ghost.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Ghost_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Gamesuccess.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Gamesuccess_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Bean.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Bean_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Bean2.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Bean2_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Brick.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Brick_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Bullet.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Bullet_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Bullet2.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Bullet2_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Cloud.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Cloud_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Enemy.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Enemy_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/hunter-game/Tube.qml"), &QmlCacheGeneratedCode::_hunter_0x2d_game_Tube_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

@@ -429,6 +429,126 @@ build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.cpp.s
+
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.o
 
@@ -452,6 +572,54 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.s: buil
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.cpp.s
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.cpp.s
 
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.o
@@ -741,6 +909,30 @@ build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apphunter-game.dir/build.make CMakeFiles/apphunter-game.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.cpp.s
+
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.o
 
@@ -826,9 +1018,30 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_hunter-game.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean2_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bean_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Brick_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet2_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Bullet_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Choosegame_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Cloud_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Enemy_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_GameButton_qml.s"
@@ -865,6 +1078,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Player_qml.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_Tube_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/apphunter-game_qmlcache_loader.s"

@@ -83,6 +83,14 @@ CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/GameOver2.qml
 CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Gamesuccess2.qml
 CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Ghost.qml
 CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Gamesuccess.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Bean.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Bean2.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Brick.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Bullet.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Bullet2.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Cloud.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Enemy.qml
+CMakeFiles/apphunter-game_qmllint: /root/hunter-game/hunter-game/Tube.qml
 CMakeFiles/apphunter-game_qmllint: .rcc/qmllint/apphunter-game.rsp
 	cd /root/hunter-game/hunter-game && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/hunter-game/hunter-game/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/apphunter-game.rsp
 

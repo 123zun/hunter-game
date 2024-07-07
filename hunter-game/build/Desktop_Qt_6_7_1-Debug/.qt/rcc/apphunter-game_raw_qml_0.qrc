@@ -13,6 +13,14 @@
     <file alias="Gamesuccess2.qml">/root/hunter-game/hunter-game/Gamesuccess2.qml</file>
     <file alias="Ghost.qml">/root/hunter-game/hunter-game/Ghost.qml</file>
     <file alias="Gamesuccess.qml">/root/hunter-game/hunter-game/Gamesuccess.qml</file>
+    <file alias="Bean.qml">/root/hunter-game/hunter-game/Bean.qml</file>
+    <file alias="Bean2.qml">/root/hunter-game/hunter-game/Bean2.qml</file>
+    <file alias="Brick.qml">/root/hunter-game/hunter-game/Brick.qml</file>
+    <file alias="Bullet.qml">/root/hunter-game/hunter-game/Bullet.qml</file>
+    <file alias="Bullet2.qml">/root/hunter-game/hunter-game/Bullet2.qml</file>
+    <file alias="Cloud.qml">/root/hunter-game/hunter-game/Cloud.qml</file>
+    <file alias="Enemy.qml">/root/hunter-game/hunter-game/Enemy.qml</file>
+    <file alias="Tube.qml">/root/hunter-game/hunter-game/Tube.qml</file>
     <file alias="images/yellow_button01.png">/root/hunter-game/hunter-game/images/yellow_button01.png</file>
     <file alias="images/blue_button01.png">/root/hunter-game/hunter-game/images/blue_button01.png</file>
     <file alias="images/brick.png">/root/hunter-game/hunter-game/images/brick.png</file>
