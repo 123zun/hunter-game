@@ -22,13 +22,41 @@ Window {
     property int heartCount: 5
 
     property bool gameOver: livesLost>= heartCount
-    property bool gamewin: points>=5
+    property bool gamewin: points>=12
 
     onLivesLostChanged: {
         GameLogic.playerdie()
+         damageplayer.play()
     }
     onPointsChanged: {
+        goalplayer.play()
         GameLogic.playerwin()
+    }
+    MediaPlayer {
+        id: goalplayer
+        audioOutput: AudioOutput{}
+        source: "audio/goal.mp3"
+    }
+
+    MediaPlayer {
+        id: damageplayer
+        audioOutput: AudioOutput{}
+        source: "audio/damage.mp3"
+    }
+    MediaPlayer {
+        id:loseplayer
+        audioOutput: AudioOutput{}
+        source: "audio/shibai.mp3"
+    }
+    MediaPlayer {
+        id:winplayer
+        audioOutput: AudioOutput{}
+        source: "audio/victory.mp3"
+    }
+    MediaPlayer {
+        id: bgmplayer
+        audioOutput: AudioOutput{}
+        source: "audio/bgm.mp3"
     }
     Component.onCompleted: {
         GameLogic.gameStart()

@@ -1,4 +1,3 @@
-//砖块。砖块可以被玩家角色碰撞，并且有一个碰撞后的消失动画。
 import QtQuick
 import QtQuick.Window
 

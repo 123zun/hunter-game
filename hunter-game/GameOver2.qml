@@ -1,4 +1,3 @@
-//游戏结束界面
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
@@ -12,6 +11,7 @@ Item {
     Behavior on opacity { PropertyAnimation { duration: 500 } }
 
     ColumnLayout {
+        z:50
         anchors { centerIn: parent }
 
 
@@ -34,7 +34,7 @@ Item {
             text: "Restart"
             TapHandler {
                 onTapped: {
-                    GameLogic.restart()
+                    GameLogic.restart2()
                 }
             }
         }

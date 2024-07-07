@@ -21,22 +21,15 @@ Image {
 
     Behavior on opacity {
         SequentialAnimation {
-            PropertyAnimation{
-                duration: 300
-            }
-            ScriptAction {
-                script: enemy.destroy()
-            }
+            PropertyAnimation{ duration: 300 }
+            ScriptAction { script: enemy.destroy() }
         }
     }
 
     Behavior on y {
         SequentialAnimation {
-            PauseAnimation {
-                duration: 1000
-            }
+            PauseAnimation { duration: 1000 }
             PropertyAnimation {
-
                 easing.type: Easing.OutSine
                 duration: enemySpeed / 2
             }
@@ -47,9 +40,7 @@ Image {
                 to: board.height
                 duration: enemySpeed / 2
             }
-            ScriptAction {
-                script: enemy.destroy()
-            }
+            ScriptAction { script: enemy.destroy() }
         }
     }
 

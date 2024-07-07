@@ -1,4 +1,3 @@
-//子弹
 import QtQuick
 import QtQuick.Window
 
@@ -39,6 +38,7 @@ Image {
         }
 
         if (GameLogic.checkCollision(player, this)) {
+            console.log("bullet destroyed")
             crashed = true
             opacity = 0
             livesLost++
@@ -61,3 +61,4 @@ Image {
     }
 
 }
+

@@ -21,13 +21,14 @@ qt_add_qml_module(
   Main.qml
   SOURCES
   RESOURCES
+  images/bean.png
   images/yellow_button01.png
   images/tube.png
   images/player_1.png
   images/player_2.png
   images/blue_button01.png
-  images/bean.png
   images/background.png
+  images/background2.png
   images/cloud_01.png
   images/cloud_02.png
   images/cloud_03.png
@@ -35,12 +36,20 @@ qt_add_qml_module(
   images/heart-off.png
   images/heart-on.png
   images/bullet.png
+  images/bullet2.png
+  images/ghost.png
   images/enemyback.png
   images/enemycenter.png
   images/enemyleft.png
   images/enemyright.png
   audio/begin.mp3
   audio/bgm.mp3
+  audio/damage.mp3
+  audio/goal.mp3
+  audio/main.gif
+  audio/menu.gif
+  audio/shibai.mp3
+  audio/victory.mp3
   QML_FILES
   MenuScreen.qml
   QML_FILES
@@ -79,7 +88,12 @@ qt_add_qml_module(
   GameScreen2.qml
   QML_FILES
   Ghost.qml
-  QML_FILES Gamesuccess2.qml)
+  QML_FILES
+  Gamesuccess2.qml
+  QML_FILES
+  Pause.qml
+  QML_FILES
+  GameOver2.qml)
 
 target_compile_features(apphunter-game PRIVATE cxx_std_20)
 

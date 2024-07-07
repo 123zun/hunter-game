@@ -1,4 +1,3 @@
-//选择关卡
 import QtQuick
 import QtQuick.Controls
 import QtMultimedia
@@ -44,7 +43,7 @@ Item {
             text: "第二关"
             enabled:true
             onClicked: {
-                screenLoader.source = "Gamescreen2.qml"
+                screenLoader.source = "GameScreen2.qml"
             }
         }
         GameButton {
